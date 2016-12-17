@@ -5,7 +5,7 @@
     <Version>3.0.0.7</Version>
     <Address>http://www.genopro.com</Address>
   </Software>
-  <Date>17 Dec 2016</Date>
+  <Date>18 Dec 2016</Date>
 
 <Global>
   <Name>
@@ -1450,14 +1450,16 @@
   <_UID>1adELqFYE8</_UID>
 </Individual>
 <Individual ID="I78">
-  <Name>Евгения Анатольевна Цуканова
-    <Display>Евгения Анатольевна Цуканова</Display>
+  <Name>Евгения Анатольевна Цуканова (Попова)
+    <Display>Евгения Анатольевна Цуканова (Попова)</Display>
     <First>Евгения</First>
     <Middle>Анатольевна</Middle>
     <Last>Цуканова</Last>
+    <Last2>Попова</Last2>
   </Name>
+  <Pictures Primary="pic00175">pic00173, pic00174, pic00175</Pictures>
   <Contacts>contact00043</Contacts>
-  <Position BoundaryRect="-993,-668,-908,-761">-950,-700</Position>
+  <Position BoundaryRect="-1007,-668,-893,-761">-950,-700</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>14 Aug 1986</Date>
@@ -7400,6 +7402,7 @@
   </Position>
 </Family>
 <Family ID="F19">
+  <Pictures Primary="pic00172">pic00172</Pictures>
   <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">-75,-100
     <Top>
       <Left>-105,-100</Left>
@@ -7534,7 +7537,7 @@
       <Right>-85,-490</Right>
     </Top>
   </Position>
-  <Relation>Marriage</Relation>
+  <Relation>Widowed</Relation>
 </Family>
 <Family ID="F34">
   <Position GenoMap="Татьяна Степановна Горюнова (Федорова)">-90,15
@@ -7795,6 +7798,7 @@
   </Position>
 </Family>
 <Family ID="F60">
+  <Pictures Primary="pic00171">pic00171</Pictures>
   <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">205,60
     <Top>
       <Left>175,60</Left>
@@ -8039,6 +8043,7 @@
   </Position>
 </Family>
 <Family ID="F85">
+  <Pictures Primary="pic00170">pic00170</Pictures>
   <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">320,-375
     <Top>
       <Left>290,-375</Left>
@@ -10508,6 +10513,40 @@
   <Name>Marija Kovaleva</Name>
   <Cache FileSize="49232" Dimension="360x480" Megapixels="0.17" BPP="24" DPI="72"/>
 </Picture>
+<Picture ID="pic00170">
+  <Path Relative="media/DSC01679.JPG" FileUnique="DSC01679.JPG" Report="media/DSC01679.JPG">C:\Users\Nikolay\Desktop\media\DSC01679.JPG</Path>
+  <Name>DSC01679</Name>
+  <Cache FileSize="1353112" Dimension="4618x3464" Megapixels="15.99" BPP="24" DPI="*96"/>
+</Picture>
+<Picture ID="pic00171">
+  <Path Relative="media/15310536_1203292493084033_470700423_n-.jpg" FileUnique="15310536_1203292493084033_470700423_n-.jpg" Report="media/15310536_1203292493084033_470700423_n-.jpg">C:\Users\Nikolay\Desktop\media\15310536_1203292493084033_470700423_n-.jpg</Path>
+  <Name>15310536_1203292493084033_470700423_n - с эффектами</Name>
+  <Cache FileSize="63194" Dimension="717x685" Megapixels="0.49" BPP="24" DPI="*96"/>
+</Picture>
+<Picture ID="pic00172">
+  <Path Relative="media/15310536_1203292493084033_470700423_n-.jpg" FileUnique="15310536_1203292493084033_470700423_n-.jpg" Report="media/15310536_1203292493084033_470700423_n-.jpg">C:\Users\Nikolay\Desktop\media\15310536_1203292493084033_470700423_n-.jpg</Path>
+  <Name>15310536_1203292493084033_470700423_n - с эффектами</Name>
+  <Cache FileSize="63194" Dimension="717x685" Megapixels="0.49" BPP="24" DPI="*96"/>
+</Picture>
+<Picture ID="pic00173">
+  <Path Relative="media/EvgenijaPopova.jpg" FileUnique="EvgenijaPopova.jpg" Report="media/EvgenijaPopova.jpg">C:\Users\Nikolay\Desktop\media\EvgenijaPopova.jpg</Path>
+  <Name>Evgenija Popova</Name>
+  <Cache FileSize="179830" Dimension="1260x1680" Megapixels="2.11" BPP="24" DPI="72"/>
+</Picture>
+<Picture ID="pic00174">
+  <Path Relative="media/EvgenijaPopova1.jpg" FileUnique="EvgenijaPopova1.jpg" Report="media/EvgenijaPopova1.jpg">C:\Users\Nikolay\Desktop\media\EvgenijaPopova1.jpg</Path>
+  <Name>Evgenija Popova1</Name>
+  <Cache FileSize="161256" Dimension="1680x1120" Megapixels="1.88" BPP="24" DPI="240"/>
+  <Date>19 Dec 2015</Date>
+  <Place>place00018</Place>
+</Picture>
+<Picture ID="pic00175">
+  <Path Relative="media/EvgenijaPopova2.jpg" FileUnique="EvgenijaPopova2.jpg" Report="media/EvgenijaPopova2.jpg">C:\Users\Nikolay\Desktop\media\EvgenijaPopova2.jpg</Path>
+  <Name>Evgenija Popova2</Name>
+  <Cache FileSize="104503" Dimension="1680x1120" Megapixels="1.88" BPP="24" DPI="240"/>
+  <Date>19 Dec 2015</Date>
+  <Place>place00018</Place>
+</Picture>
 </Pictures>
 <Places>
 <Place ID="place00001">
@@ -11498,7 +11537,7 @@
 <Household>
   <Objects>I78, ind00761</Objects>
   <Position>
-    <Points>-1101,-674, -993,-668, -908,-668, -908,-761, -1101,-761, -1101,-674</Points>
+    <Points>-1101,-674, -1007,-668, -893,-668, -893,-761, -1101,-761, -1101,-674</Points>
   </Position>
   <Display Pattern=".">
     <Color Line="#808000" Fill="Transparent"/>
@@ -11507,7 +11546,7 @@
 <Household>
   <Objects>I31, I41, I44</Objects>
   <Position>
-    <Points>-1194,-508, -1117,-508, -993,-761, -908,-761, -893,-761, -808,-761, 621,-703, 738,-703, 738,-796, -1043,-961, -1118,-961, -1118,-868, -1009,-761, -1009,-674, -1194,-601, -1194,-508</Points>
+    <Points>-1194,-508, -1117,-508, -1007,-761, -893,-761, -893,-761, -808,-761, 621,-703, 738,-703, 738,-796, -1043,-961, -1118,-961, -1118,-868, -1009,-761, -1009,-674, -1194,-601, -1194,-508</Points>
   </Position>
   <Display Pattern=".">
     <Color Line="#008000" Fill="Transparent"/>
