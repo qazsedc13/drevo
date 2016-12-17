@@ -1,0 +1,83 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<meta http-equiv="Content-Language" content=""/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Getting Started Guide</title>
+<meta name="description" content="This will help you to navigate the site" />
+<meta name="keywords" content="Narrative Report, Getting Started" />
+<base target="popup"/>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<script type='text/javascript' language="JavaScript" src="scripts/svgcheck.js"></script>
+<script type='text/vbscript' language="VBScript" src="scripts/svgcheck.vbs"></script>
+<script type='text/javascript' src="scripts/jquery.min.js"></script>
+<script type='text/javascript' language="JavaScript" src="scripts/script.js"></script>
+<script type='text/javascript' language="JavaScript">
+        var mapInfo = {File:"help.svg", Bounds:[-389,-688,411,-180],SVG:true};
+        var embed, svgdoc, svgwin, pdfparam;
+        $(function () {
+            document.getElementById("svgpdf").innerHTML = '<EMBED src="' + mapInfo.File + '" id="svgEmbed" height="100%" width="100%" type="image/svg+xml" border="2"/>';
+    
+                    document.getElementById("svgpdf").innerHTML = '<EMBED src="' + mapInfo.File + '" id="svgEmbed" height="508px" width="800px" type="image/svg+xml" border="2"/>';
+                    embed = document.getElementById('svgEmbed');
+                    }
+        );
+        
+</script>
+
+</head>
+<body class='gno-detail' onload="javascript:PageInit(true, '');">
+<div class='clearfix'>
+</div>
+<div class='floatright'>
+<img src='images/expand2.gif' class='toggle24' name='toggle2' onclick='javascript:ToggleTree(this.name,"2");' alt='Развернуть/свернуть' title='Развернуть/свернуть' />
+</div>
+<a name='Help'></a><h4>Некоторые пояснения</h4>
+На этих страницах используется несколько методов представления информации по истории рода.<br /> Индексирование позволяет быстро открывать страницы персон, семей, мест и т.д.<br /> Информация доступна не только в текстовой форме, но и в графиках, генограммах и картах.<br /> Интерактивные диалоги помогут Вам в изучении страниц.<br /> С помощью иконок &#39;<img class='top' src='images/arrow2.show.gif' alt=''/>&#39; и <img class='bottom' src='images/expand2.gif' alt=''/> можно развернуть информацию.<br /><br />
+<ul class='xT'><li class='xT2-c xT-h' onclick='xTclk(event,"2")'>
+
+<a name='Navigation_Menu'></a><h4 class='xT-i inline'>Меню навигации</h4><ul class='xT-h'><li>
+<a name='nav00002'></a><div class='clearleft'>
+Меню навигации располагается вверху страницы. Всплывающая информация поясняет назначение каждого пункта меню. <br /><br /><b>На главную</b> - возврат на главную страницу.<br /><br /> <b>Персоны</b> - показ информации о персонах. После щелчка по имени персоны откроется персональная страница.<br /><br /> <b>Семьи</b> - показ информации о семьях.<br /><br /> <b>Генограммы</b> - показ родословных схем.<br /><br /> <b>Карты</b> - кнопка показа карт Google, появится если информация (широта и долгота) о расположении места, связанного с персоной или семьёй представлена. <img class='top' src='images/pin.gif' alt=''/> - кнопка, следующая за именем на персональной или семейной странице, покажет место на карте, связанное с этой персоной, семьёй или местом.
+<br />
+<br />
+</div>
+</li></ul></li></ul>
+<br/><ul class='xT'><li class='xT2-c xT-h' onclick='xTclk(event,"2")'>
+<a name='Family_Tree_Diagrams'></a><h4 class='xT-i inline'>Семейные генограммы</h4><ul class='xT-h'><li>
+<a name='tree00001'></a><div class='clearleft'></div>
+Пример генограммы (фамильного родословного древа):
+<br />
+<div id="svgpdf"></div>
+<br />
+<b>Символы</b>
+<br />
+На генограммах мужчины представляются квадратом, женщины кругом.<br /> Умершие персоны обозначаются символами, перечёркнутыми наклонными линиями.<br /> Если год рождения и год смерти известны, возраст персоны на момент смерти показан в символе.
+<br />
+<br /><b>Условности</b>
+<br />
+На генеалогических схемах принято расположение символов - супруг слева, супруга справа.<br /> Дети располагаются слева направо по старшинству.<br />В некоторых случаях возможно и другое расположение символов персон (если это нагляднее).<br /> Дополнительную информацию можно посмотреть по ссылке <a href='http://www.genopro.com/genogram/' target='_blank'>&#39;Introduction to the Genogram&#39;</a>.
+<br/>
+<br/><b>О семейных генограммах</b>
+<br/>
+Семейное древо может быть разделено на поддеревья, что более удобно для изучения рода при значительном количестве персон. Схемы древ представляются в двух форматах - PDF и SVG.<br /> Формат PDF удобен для печати и при отсутствии возможности просмотра формата SVG. Формат SVG интерактивный. Если доступны оба формата, то доступна и иконка переключения между форматами.<br /> При использовании формата SVG можно открыть страницу персоны щелчком по символу персоны на генограмме.<br /> Персоны, обозначенные синим цветом на генограмме, связаны и с другой генограммой. Щелчок по такой персоне позволяет переместиться на другую генограмму.
+<br/>
+<br/>
+</li></ul></li></ul>
+<br/><ul class='xT'><li class='xT2-c xT-h' onclick='xTclk(event,"2")'>
+<a name='Individuals_Page'></a><h4 class='xT-i inline'>Персональные страницы</h4><ul class='xT-h'><li>
+<a name='ind00001'></a><div class='clearleft'></div>
+Каждая персона имеет собственную страницу, где имеется вся найденная информация.<br /> На всех страницах возможен переход на другие страницы, если объект обозначен цветом, отличным от цвета основного текста (ссылки).&nbsp;
+<br/>
+<br/>
+</li></ul></li></ul>
+<br />
+<div class='clear'></div>
+<div id='divFrameset' class='hide'> <hr /><p><br />
+This page is within a frameset. <b><a target='_top' href='default.htm'>View the entire genealogy report of </a></b>, or <a href='toc_individuals.htm'>surname index</a> or <a href='home.htm'>report summary</a>.<br /><a href="http://www.genopro.com/" title="Draw your genealogy tree" target="_Blank">Drawing a Family Tree</a>.</p><hr /><br /><p class='aligncenter'><small>Copyright © 2011 GenoPro Inc. Все права защищены.</small></p></div>
+</body>
+</html>

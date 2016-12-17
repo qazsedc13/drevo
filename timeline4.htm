@@ -1,0 +1,67 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns='http://www.w3.org/1999/xhtml'>
+	<head>
+		<meta http-equiv="Content-Language" content="ru-ru"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title></title>
+		<link rel="stylesheet" href="style.css" type="text/css"/>
+		<script type='text/javascript'>
+			Timeline_ajax_url='timeline/ajax/simile-ajax-api.js';
+			Timeline_urlPrefix='timeline/';
+			Timeline_parameters='bundle=true';
+		</script>
+		<script src="timeline/timeline-api.js" type="text/javascript"></script>
+		<script type='text/javascript' src="scripts/jquery.min.js"></script>
+		<script src="scripts/script.js" type="text/javascript"></script>
+		<script  type="text/javascript">
+            SimileAjax.History.enabled = false; // prevent spurious alerts for __History__.html with timelines
+			var tl, json =
+{
+'events' : [
+
+{ 'start' : '01 Apr 1915', 'title' : 'Марфа Ивановна Большедворская (Безбородова) \u202D1915\u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I1.htm','description' : 'Дата рождения -\x20 04.1915'},
+{ 'start' : '01 Jan 1912', 'title' : 'Давид Михайлович Безбородов \u202D1912\u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I154.htm','description' : 'Дата рождения -\x20 1912'},
+{ 'start' : '4 Aug 1949', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Борис Давыдович Безбородов \u202D1949 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I155.htm','description' : 'Дата рождения -\x20 4.08.1949'},
+{ 'start' : '26 Sep 1948', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Валентина Степановна Татарченко (Безбородова) \u202D1948 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I156.htm','description' : 'Дата рождения -\x20 26.09.1948'},
+{ 'start' : '23 Aug 1980', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Михаил Борисович Безбородов \u202D1980 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I157.htm','description' : 'Дата рождения -\x20 23.08.1980'},
+{ 'start' : '6 Aug 1980', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Елена Андреевна Полянская \u202D1980 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I158.htm','description' : 'Дата рождения -\x20 6.08.1980'},
+{ 'start' : '29 Oct 2006', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Егор Михайлович Безбородов \u202D2006 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I159.htm','description' : 'Дата рождения -\x20 29.10.2006'},
+{ 'start' : '15 Feb 2008', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Захар Михайлович Безбородов \u202D2008 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I160.htm','description' : 'Дата рождения -\x20 15.02.2008'},{'title' : 'Помощь', 'start' : '18 Dec 2016', 'end' : '17 Dec 2066', 'textColor' : 'black', 'color' : 'white', 'isDuration' : 'false', 'icon' : 'images/info.gif', 'description' : 'Нажав на поле Хронологии, тяните мышкой или после щелчка мышкой используйте клавиши клавиатуры следующим образом: \x27Home\x27 - перейти в начало, \x27End\x27 - перейти в конец, \x27Page Up\x27 и \x27Page Down\x27 - передвижение на один экран, курсорные клавиши - движение пока клавиша нажата. После щелчка мышкой по имени персоны появится информационное поле. Щелкнув по названию информационного поля, перейдёте на страницу персоны. Вращение колеса мыши изменяет масштаб шкалы времени.'}],
+'nowTag' : ' сегодня',
+'subtitle': 'Хронология\x20 Марфа Ивановна Большедворская (Безбородов)',
+'date' : '17 Dec 1966'}
+  
+			;
+			var tlParam = {
+				data : true,
+				duration : true, 
+				wrapEvents : false
+			};
+			$(function () {
+				timeLineOnLoad(tlParam);
+				window.onresize=timeLineOnResize(tlParam);
+			});
+		</script>
+	<base target="detail"/>
+  
+	</head>
+	<body class='gno-popup'>
+	<div class='curvyboxbackground'>
+ <div class='curvycorners_box'>
+  <div class='curvycorners_top'><div></div></div>
+   <div class='curvycorners_content'>
+
+		<h4 id='subtitle'> </h4>
+		<div class='clear' id='constrainer' style='overflow: auto;'  >
+				<div id="timeline0" style="height: 100%;border: 1px solid #aaa;">
+				</div>
+		</div>
+		   </div>
+  <div class='curvycorners_bottom'><div></div></div>
+ </div>
+</div>
+
+	</body>
+</html>

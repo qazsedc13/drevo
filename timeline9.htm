@@ -1,0 +1,68 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns='http://www.w3.org/1999/xhtml'>
+	<head>
+		<meta http-equiv="Content-Language" content="ru-ru"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title></title>
+		<link rel="stylesheet" href="style.css" type="text/css"/>
+		<script type='text/javascript'>
+			Timeline_ajax_url='timeline/ajax/simile-ajax-api.js';
+			Timeline_urlPrefix='timeline/';
+			Timeline_parameters='bundle=true';
+		</script>
+		<script src="timeline/timeline-api.js" type="text/javascript"></script>
+		<script type='text/javascript' src="scripts/jquery.min.js"></script>
+		<script src="scripts/script.js" type="text/javascript"></script>
+		<script  type="text/javascript">
+            SimileAjax.History.enabled = false; // prevent spurious alerts for __History__.html with timelines
+			var tl, json =
+{
+'events' : [
+
+{ 'start' : '2 Jan 1941', 'end' : '3 Oct 2007', 'isDuration' : 'false', 'title' : 'Николай Степанович Горюнов \u202D1941 - 2007\u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I13.htm','description' : 'Дата рождения -\x20 2.01.1941 Дата смерти -\x20 3.10.2007'},
+{ 'start' : '1 Mar 1942', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Галина Тимофеевна Уколова (Горюнова) \u202D1942 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I15.htm','description' : 'Дата рождения -\x20 1.03.1942'},
+{ 'start' : '8 Jul 1995', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Александр Сергеевич Карбушев \u202D1995 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I20.htm','description' : 'Дата рождения -\x20 8.07.1995'},
+{ 'start' : '17 Nov 1968', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Сергей  Григорьевич Карбушев \u202D1968 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I21.htm','description' : 'Дата рождения -\x20 17.11.1968'},
+{ 'start' : '2 Mar 1973', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Ирина Николаевна Горюнова (Карбушева) \u202D1973 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I22.htm','description' : 'Дата рождения -\x20 2.03.1973'},
+{ 'start' : '19 Dec 1993', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Антон Павлович Меркушин \u202D1993 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I68.htm','description' : 'Дата рождения -\x20 19.12.1993'},
+{ 'start' : '5 Mar 2001', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Дмитрий Павлович Меркушин \u202D2001 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I69.htm','description' : 'Дата рождения -\x20 5.03.2001'},
+{ 'start' : '21 Oct 1964', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Павел Дмитриевич Меркушин \u202D1964 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I70.htm','description' : 'Дата рождения -\x20 21.10.1964'},
+{ 'start' : '21 Jun 1968', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Светлана Николаевна Горюнова (Меркушина) \u202D1968 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I71.htm','description' : 'Дата рождения -\x20 21.06.1968'},{'title' : 'Помощь', 'start' : '18 Dec 2016', 'end' : '17 Dec 2066', 'textColor' : 'black', 'color' : 'white', 'isDuration' : 'false', 'icon' : 'images/info.gif', 'description' : 'Нажав на поле Хронологии, тяните мышкой или после щелчка мышкой используйте клавиши клавиатуры следующим образом: \x27Home\x27 - перейти в начало, \x27End\x27 - перейти в конец, \x27Page Up\x27 и \x27Page Down\x27 - передвижение на один экран, курсорные клавиши - движение пока клавиша нажата. После щелчка мышкой по имени персоны появится информационное поле. Щелкнув по названию информационного поля, перейдёте на страницу персоны. Вращение колеса мыши изменяет масштаб шкалы времени.'}],
+'nowTag' : ' сегодня',
+'subtitle': 'Хронология\x20 Николай Степанович Горюнов',
+'date' : '17 Dec 1966'}
+  
+			;
+			var tlParam = {
+				data : true,
+				duration : true, 
+				wrapEvents : false
+			};
+			$(function () {
+				timeLineOnLoad(tlParam);
+				window.onresize=timeLineOnResize(tlParam);
+			});
+		</script>
+	<base target="detail"/>
+  
+	</head>
+	<body class='gno-popup'>
+	<div class='curvyboxbackground'>
+ <div class='curvycorners_box'>
+  <div class='curvycorners_top'><div></div></div>
+   <div class='curvycorners_content'>
+
+		<h4 id='subtitle'> </h4>
+		<div class='clear' id='constrainer' style='overflow: auto;'  >
+				<div id="timeline0" style="height: 100%;border: 1px solid #aaa;">
+				</div>
+		</div>
+		   </div>
+  <div class='curvycorners_bottom'><div></div></div>
+ </div>
+</div>
+
+	</body>
+</html>

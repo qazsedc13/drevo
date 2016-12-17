@@ -1,0 +1,231 @@
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html  xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<meta http-equiv="Content-Language" content="ru-ru"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Родственники Ковалёва Николая Ивановича</title>
+<meta name="description" content="Summary report of Родственники Ковалёва Николая Ивановича containing 513 individuals and 172 families. This report describes the genealogy and ancestry of families&nbsp;Ковалёв, Большедворский, Горюнов, Шмелёв, Верхушин, Федоров, Степных, Крупенников, Захаров, Глазков." />
+<meta name="keywords" content="Family Report, Genealogy Report, Family Tree, Family Search" />
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+<link rel="shortcut icon" href="favicon.ico?" />
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<script type='text/javascript' src="scripts/jquery.min.js"></script>
+<script type='text/javascript' src="scripts/script.js"></script>
+<script type="text/javascript">
+
+var basepath, setRhs = "*,65%", minRhs="0,*", setLower="30%,*", saveLower, minLower="0,*", setPopup,
+	frameLower, frameRhs, maxPopups=false;
+
+
+$.cookie('origin', window.location.href);
+
+basepath = window.location.pathname;
+$.cookie('basepath', basepath.substr(0, basepath.lastIndexOf('/')));
+
+if (!maxPopups) {
+	if (window.location.search.substring(1) == 'reloaded') {
+		maxPopups = $.cookie('maxPopups') == 'true';
+	} else if (SmartPhone.isAny() || smallScreen()) {
+		maxPopups = confirm('Optimize presentation for smaller screen?');
+		$.cookie('maxPopups', maxPopups ? 'true' : 'false', 1);
+	}
+}	
+if (maxPopups ) {
+	setPopup = '100%';
+	saveLower=saveLower2="100%,0";
+} else {
+	setPopup ='65%';
+	saveLower=saveLower2="30%,*";
+}
+
+$.cookie('popupToggleState',"images/maximize.gif");
+$.cookie('tocStateToggle', (true || maxPopups ? 'Close' : 'Open'));
+/*
+$.cookie('tocOpensrc', "images/toc_open.gif");
+$.cookie('tocOpentitle', "Этот перечень будет открыт всегда после выбора любой ссылки. Щёлкните для изменения.");
+$.cookie('tocOpenalt', $.cookie('tocOpentitle'));
+$.cookie('tocClosesrc', "images/toc_close.gif");
+$.cookie('tocClosetitle', "Этот перечень закроется после выбора любой ссылки. Щёлкните для изменения.");
+$.cookie('tocClosealt', $.cookie('tocClosetitle'));
+$.cookie('tocAutoHide', true);
+$.cookie('popupTitle', '');
+$.cookie('popupHTML', '');
+*/
+	var frameBorders = true;
+	var iconMenu = false;
+
+var actions = {
+	title : 		function(msg) {
+						window.document.title = msg;
+					},
+	hidePopup : 	function(msg) {
+						document.getElementById('rhs').rows="*,0";
+						$.cookie('popupToggleState', "images/maximize.gif");
+						$.cookie('popupTitle', '');
+						$.cookie('popupHTML', '');
+						window.frames["popup"].location.href = (msg ? msg :'popup.htm');
+					},
+	maxPopup : 		function() {
+						if (frameLower.cols != "0,*") saveLower = frameLower.cols;
+						frameLower.cols = "0,*";
+						frameRhs.rows = "0,*";
+						$.cookie('popupToggleState', "images/restore.gif");
+					},
+	restorePopup : 	function() {
+						if ($.cookie('popupToggleState') == "images/restore.gif") {
+							frameRhs.rows = setRhs;
+							$.cookie('popupToggleState', "images/maximize.gif");
+						}
+					},
+	openPopup : 	function(popup) {
+						window.frames["popup"].location.href = popup;
+						actions.showPopup();
+					},
+	showPopup : 	function(msg) {
+						if ($.cookie('popupToggleState') == "images/restore.gif") {  // if popup previously maximised, reset it to normal size.
+							document.getElementById('rhs').rows = setRhs;
+						}
+						var pc=(msg ? msg : setPopup);
+						if(maxPopups || document.getElementById('rhs').rows=="*,0" || pc != "")      // don't change if already changed by user
+						{	
+							document.getElementById('rhs').rows="*,"+pc;
+							$.cookie('popupToggleState', (pc == '100%' ?  "images/restore.gif" : "images/maximize.gif"));
+						}
+					},
+	hideMap	  : 	function() {
+						actions.hidePopup('popup.htm');
+					},
+	hideTOC :		function(popup) {
+						if (frameLower.cols && frameLower.cols != minLower) saveLower = frameLower.cols;
+						frameLower.cols = minLower;
+						if (popup) action.showPopup(popup);
+					},
+	showTOC :		function() {
+						document.getElementById('lower').cols = saveLower;
+					}
+	}
+
+$.receiveMessage(function(e){
+	// console.log('receiveMessage', e.data); //debug
+
+	var parts =e.data.split('=');
+	var msg = (parts.length > 1 ? e.data.substr(parts[0].length+1) : null);
+	if (parts[0] in actions) {
+		actions[parts[0]](msg);
+	} else {
+		alert('missing action for '+parts[0]);
+	}
+/*
+	switch (parts[0]) {
+		case 'title' :
+			window.document.title = msg;
+			break;
+			
+		case 'showPopup' :
+			break;
+		case 'tocPopupShow':
+			console.log('tocPopupShow1');
+			if (msg.substr(0,1) == 'Y') {
+			console.log('tocPopupShow2');
+				var lowerFrame = document.getElementById('lower');
+				if (lowerFrame.cols && lowerFrame.cols != minLower) saveLower = lowerFrame.cols;
+				lowerFrame.cols = minLower;
+			}
+			console.log($.cookie('popupToggleState'),saveLower2, saveRhs2);
+			//if ($.cookie('popupToggleState') != "images/maximize.gif") {
+				document.getElementById('lower').cols = saveLower2;
+				document.getElementById('rhs').rows = saveRhs2;
+				$.cookie('popupToggleState', "images/maximize.gif");
+			//}
+			window.frames["popup"].location.href = msg.substr(1);
+			break;
+		case 'tocPopupHide':
+		case 'hidePopup':
+			break;
+		case 'setpopup':
+			window.frames["popup"].location.href = (msg ? msg :'popup.htm');
+			break;
+		case 'togglePopup':
+			break;
+		case 'restorePopup':
+			break;
+		case 'hideMap':
+			break;
+		case 'tocHide':
+			var lowerFrame = document.getElementById('lower');
+			if (lowerFrame.cols && lowerFrame.cols != minLower) saveLower = lowerFrame.cols;
+			lowerFrame.cols = minLower;
+			break;
+		case 'tocShow':
+			break;
+		default:
+			alert('missing action for '+parts[0]);
+		}
+*/
+});
+
+// Open an individual page if specified in the querystring or referrer
+function HomePageInit() {
+  //	HISTORY
+  //	12-Oct-2006	GenoPro			Creation
+
+	// check if a url is specify in the querystring
+	var indexPageToLoad = location.search.indexOf("page=");
+	if (indexPageToLoad != -1) {
+		var pageToLoad = location.search.substring(indexPageToLoad + 5); // page= is 5 characters width
+		self.frames['detail'].location = pageToLoad;
+	}
+}
+function fixFrameSet(framesetObj, topFrame) {
+         var rows = framesetObj.getAttribute("rows"), cols = framesetObj.getAttribute("cols"); 
+         if (frameBorders) {
+            framesetObj.setAttribute("border","2");
+            framesetObj.setAttribute("framespacing","1");
+         }else{
+            framesetObj.setAttribute("framespacing","0");
+            framesetObj.setAttribute("border","0");
+         };
+         if (rows) framesetObj.setAttribute("rows", rows);
+         if (cols) framesetObj.setAttribute("cols", cols);
+         if (topFrame) {
+            fixFrameSet(document.getElementById("lower"), false);
+            fixFrameSet(document.getElementById("rhs"), false);
+         }
+}
+$(function () {
+		fixFrameSet(document.body, true);
+		document.getElementById("rhs").rows="*,1";
+		document.getElementById("rhs").rows="*,0";
+		frameLower = document.getElementById('lower');
+		frameRhs = document.getElementById('rhs');
+}
+);
+</script>
+</head>
+<frameset id="outer" rows="80,*" onload="javascript:HomePageInit();">
+    <frame name="heading" src="heading.htm" scrolling="no" style="margin-width:2px;border-color:silver;"/>
+    <frameset id="lower" cols="0,*">
+        <frame style="margin-width:2px;border-color:silver;" name="toc" src="toc_individuals.htm" marginwidth='10' marginheight='15'/>
+    		<frameset id="rhs" rows="*,0">
+    			<frame style="margin-width:2px;border-color:silver;" name="detail" id="detail" src="home.htm" scrolling="auto" marginwidth='5' marginheight='15'/> 
+    			<frame style="margin-width:2px;border-color:silver;" name="popup" id="popup" src="popup.htm" scrolling="auto" marginwidth='5' marginheight='5'/>
+    		</frameset>
+	  </frameset>
+    <noframes>
+      <body>    
+         <p id="noframes">
+This <b>genealogy report</b> is about <i>Родственники Ковалёва Николая Ивановича</i>.It contains 513 individuals and 172 families, and also 123 изображениеs from the family tree. В данном отчете вся информация, которую я смог собрать о своей семье.<br /></p><ul>
+<li><a href='toc_individuals.htm#Ковалёв'>Find the Ковалёв family and its 59 ancestors.</a>.</li>
+<li><a href='toc_individuals.htm#Большедворский'>Search the Большедворский family and its 42 persons.</a>.</li>
+<li><a href='toc_individuals.htm#Горюнов'>Find the Горюнов family and its 19 persons.</a>.</li>
+<li><a href='toc_individuals.htm#Шмелёв'>Search the Шмелёв family and its 15 people.</a>.</li>
+</ul><p>
+You may also search for the following family names:
+<a href='toc_individuals.htm#Верхушин'>Верхушин</a>, <a href='toc_individuals.htm#Федоров'>Федоров</a>, <a href='toc_individuals.htm#Степных'>Степных</a>, <a href='toc_individuals.htm#Крупенников'>Крупенников</a>, <a href='toc_individuals.htm#Захаров'>Захаров</a>, <a href='toc_individuals.htm#Глазков'>Глазков</a>, <a href='toc_individuals.htm#Афанасьев'>Афанасьев</a>, <a href='toc_individuals.htm#Потапов'>Потапов</a>, <a href='toc_individuals.htm#Москалёв'>Москалёв</a>, <a href='toc_individuals.htm#Маниковский'>Маниковский</a>, <a href='toc_individuals.htm#Кутневский'>Кутневский</a>, <a href='toc_individuals.htm#Сафронов'>Сафронов</a>, <a href='toc_individuals.htm#Матвеев'>Матвеев</a>, <a href='toc_individuals.htm#Дроздов'>Дроздов</a>, <a href='toc_individuals.htm#Безбородов'>Безбородов</a>, <a href='toc_individuals.htm#Фетищев'>Фетищев</a>, <a href='toc_individuals.htm#Овчинников'>Овчинников</a>, <a href='toc_individuals.htm#Цуканов'>Цуканов</a>, <a href='toc_individuals.htm#Соснин'>Соснин</a>, <a href='toc_individuals.htm#Рубцов'>Рубцов</a>, <a href='toc_individuals.htm#Попов'>Попов</a>, <a href='toc_individuals.htm#Лопатин'>Лопатин</a>, <a href='toc_individuals.htm#Ланцов'>Ланцов</a>, <a href='toc_individuals.htm#Коновалов'>Коновалов</a>, <a href='toc_individuals.htm#Григорьев'>Григорьев</a>, <a href='toc_individuals.htm#Грешилов'>Грешилов</a>, <a href='toc_individuals.htm#Шелопугин'>Шелопугин</a>, <a href='toc_individuals.htm#Шарков'>Шарков</a>, <a href='toc_individuals.htm#Хлуднев'>Хлуднев</a>, <a href='toc_individuals.htm#Томских'>Томских</a>, <a href='toc_individuals.htm#Семенов'>Семенов</a>, <a href='toc_individuals.htm#Раздобреев'>Раздобреев</a>, <a href='toc_individuals.htm#Петров'>Петров</a>, <a href='toc_individuals.htm#Меркушин'>Меркушин</a>, <a href='toc_individuals.htm#Лабыгин'>Лабыгин</a>, <a href='toc_individuals.htm#Козлов'>Козлов</a>, <a href='toc_individuals.htm#Кожемякин'>Кожемякин</a>, <a href='toc_individuals.htm#Елистратов'>Елистратов</a>, <a href='toc_individuals.htm#Ясюнин'>Ясюнин</a>, <a href='toc_individuals.htm#Цвик'>Цвик</a>, <a href='toc_individuals.htm#Фролов'>Фролов</a>, <a href='toc_individuals.htm#Пиякин'>Пиякин</a>, <a href='toc_individuals.htm#Окунев'>Окунев</a>, <a href='toc_individuals.htm#Нечаев'>Нечаев</a>, <a href='toc_individuals.htm#Назипов'>Назипов</a>, <a href='toc_individuals.htm#Леонов'>Леонов</a>, <a href='toc_individuals.htm#Карбушев'>Карбушев</a>, <a href='toc_individuals.htm#Калгин'>Калгин</a>, <a href='toc_individuals.htm#Заказчиков'>Заказчиков</a>, <a href='toc_individuals.htm#Жарких'>Жарких</a>, <a href='toc_individuals.htm#Дианов'>Дианов</a>, <a href='toc_individuals.htm#Губенко'>Губенко</a>, <a href='toc_individuals.htm#Бодров'>Бодров</a>, <a href='toc_individuals.htm#Шмелёв (Сущих)'>Шмелёв (Сущих)</a>, <a href='toc_individuals.htm#Чупров'>Чупров</a>, <a href='toc_individuals.htm#Черных'>Черных</a>, <a href='toc_individuals.htm#Черкасов'>Черкасов</a>, <a href='toc_individuals.htm#Черепанов'>Черепанов</a>, <a href='toc_individuals.htm#Чарушин'>Чарушин</a>, <a href='toc_individuals.htm#Хохряков'>Хохряков</a>, <a href='toc_individuals.htm#Фомин'>Фомин</a>, <a href='toc_individuals.htm#(Федорова)'>(Федорова)</a>, <a href='toc_individuals.htm#Уколов'>Уколов</a>, <a href='toc_individuals.htm#Тихонов'>Тихонов</a>, <a href='toc_individuals.htm#Татарченко'>Татарченко</a>, <a href='toc_individuals.htm#Скуратов'>Скуратов</a>, <a href='toc_individuals.htm#Семёнов'>Семёнов</a>, <a href='toc_individuals.htm#Рыбалкин'>Рыбалкин</a>, <a href='toc_individuals.htm#(Потапова)'>(Потапова)</a>, <a href='toc_individuals.htm#Полянский'>Полянский</a>, <a href='toc_individuals.htm#Пиленков'>Пиленков</a>, <a href='toc_individuals.htm#Ощепков'>Ощепков</a>, <a href='toc_individuals.htm#Мишульский'>Мишульский</a>, <a href='toc_individuals.htm#Медведев'>Медведев</a>, <a href='toc_individuals.htm#(Матвеева)'>(Матвеева)</a>, <a href='toc_individuals.htm#Курбатов'>Курбатов</a>, <a href='toc_individuals.htm#Кумаритов'>Кумаритов</a>, <a href='toc_individuals.htm#Кузьмин'>Кузьмин</a>, <a href='toc_individuals.htm#Колесников'>Колесников</a>, <a href='toc_individuals.htm#Карпов'>Карпов</a>, <a href='toc_individuals.htm#Калашников'>Калашников</a>, <a href='toc_individuals.htm#Казаков'>Казаков</a>, <a href='toc_individuals.htm#Ильин'>Ильин</a>, <a href='toc_individuals.htm#Изукаев'>Изукаев</a>, <a href='toc_individuals.htm#Злобин'>Злобин</a>, <a href='toc_individuals.htm#Зеленин'>Зеленин</a>, <a href='toc_individuals.htm#Жеребцов'>Жеребцов</a>, <a href='toc_individuals.htm#Денисенко'>Денисенко</a>, <a href='toc_individuals.htm#Валенов'>Валенов</a>, <a href='toc_individuals.htm#Бурдуковский'>Бурдуковский</a>, <a href='toc_individuals.htm#Бархатов'>Бархатов</a>, <a href='toc_individuals.htm#Асташов'>Асташов</a>, <a href='toc_individuals.htm#Антипов'>Антипов</a>.<br /><br />Copyright © 1998-2011 GenoPro Inc. Все права защищены. Download GenoPro from <a href='http://www.genopro.com/'>http://www.genopro.com/</a>
+         </p>
+      </body>
+    </noframes>
+</frameset>
+</html>

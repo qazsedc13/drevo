@@ -1,0 +1,63 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns='http://www.w3.org/1999/xhtml'>
+	<head>
+		<meta http-equiv="Content-Language" content="ru-ru"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title></title>
+		<link rel="stylesheet" href="style.css" type="text/css"/>
+		<script type='text/javascript'>
+			Timeline_ajax_url='timeline/ajax/simile-ajax-api.js';
+			Timeline_urlPrefix='timeline/';
+			Timeline_parameters='bundle=true';
+		</script>
+		<script src="timeline/timeline-api.js" type="text/javascript"></script>
+		<script type='text/javascript' src="scripts/jquery.min.js"></script>
+		<script src="scripts/script.js" type="text/javascript"></script>
+		<script  type="text/javascript">
+            SimileAjax.History.enabled = false; // prevent spurious alerts for __History__.html with timelines
+			var tl, json =
+{
+'events' : [
+
+{ 'start' : '3 Oct 1956', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Иван Константинович Овчинников \u202D1956 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I73.htm','description' : 'Дата рождения -\x20 3.10.1956'},
+{ 'start' : '12 Aug 1936', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Валентина Илларионовна Ковалёва (Овчинникова) \u202D1936 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I74.htm','description' : 'Дата рождения -\x20 12.08.1936'},
+{ 'start' : '13 Jun 1993', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Елена Ивановна Овчинникова \u202D1993 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I75.htm','description' : 'Дата рождения -\x20 13.06.1993'},
+{ 'start' : '5 Oct 1953', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Ольга Хохрякова (Овчинникова) \u202D1953 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'ind00730.htm','description' : 'Дата рождения -\x20 5.10.1953'},{'title' : 'Помощь', 'start' : '18 Dec 2016', 'end' : '17 Dec 2066', 'textColor' : 'black', 'color' : 'white', 'isDuration' : 'false', 'icon' : 'images/info.gif', 'description' : 'Нажав на поле Хронологии, тяните мышкой или после щелчка мышкой используйте клавиши клавиатуры следующим образом: \x27Home\x27 - перейти в начало, \x27End\x27 - перейти в конец, \x27Page Up\x27 и \x27Page Down\x27 - передвижение на один экран, курсорные клавиши - движение пока клавиша нажата. После щелчка мышкой по имени персоны появится информационное поле. Щелкнув по названию информационного поля, перейдёте на страницу персоны. Вращение колеса мыши изменяет масштаб шкалы времени.'}],
+'nowTag' : ' сегодня',
+'subtitle': 'Хронология\x20 Валентина Илларионовна Ковалёва (Овчинникова)',
+'date' : '17 Dec 1966'}
+  
+			;
+			var tlParam = {
+				data : true,
+				duration : true, 
+				wrapEvents : false
+			};
+			$(function () {
+				timeLineOnLoad(tlParam);
+				window.onresize=timeLineOnResize(tlParam);
+			});
+		</script>
+	<base target="detail"/>
+  
+	</head>
+	<body class='gno-popup'>
+	<div class='curvyboxbackground'>
+ <div class='curvycorners_box'>
+  <div class='curvycorners_top'><div></div></div>
+   <div class='curvycorners_content'>
+
+		<h4 id='subtitle'> </h4>
+		<div class='clear' id='constrainer' style='overflow: auto;'  >
+				<div id="timeline0" style="height: 100%;border: 1px solid #aaa;">
+				</div>
+		</div>
+		   </div>
+  <div class='curvycorners_bottom'><div></div></div>
+ </div>
+</div>
+
+	</body>
+</html>

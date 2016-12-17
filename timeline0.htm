@@ -1,0 +1,113 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns='http://www.w3.org/1999/xhtml'>
+	<head>
+		<meta http-equiv="Content-Language" content="ru-ru"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title></title>
+		<link rel="stylesheet" href="style.css" type="text/css"/>
+		<script type='text/javascript'>
+			Timeline_ajax_url='timeline/ajax/simile-ajax-api.js';
+			Timeline_urlPrefix='timeline/';
+			Timeline_parameters='bundle=true';
+		</script>
+		<script src="timeline/timeline-api.js" type="text/javascript"></script>
+		<script type='text/javascript' src="scripts/jquery.min.js"></script>
+		<script src="scripts/script.js" type="text/javascript"></script>
+		<script  type="text/javascript">
+            SimileAjax.History.enabled = false; // prevent spurious alerts for __History__.html with timelines
+			var tl, json =
+{
+'events' : [
+
+{ 'start' : '01 Jan 1920', 'end' : '01 Jan 1983', 'isDuration' : 'false', 'title' : 'бракосочетание: Илларион Куприянович Ковалёв и Устинья Тимофеевна Глазкова (Ковалёва) \u202D1920 - 1983\u202C', 'icon' : 'images/family_MF.gif', 'color' : '#2E8B57', 'link' : 'family-and-F6.htm','description' : '\x20 1920'},
+{ 'start' : '17 Aug 1982', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'бракосочетание: Иван Николаевич Ковалёв и Галина Васильевна Большедворская (Ковалёва) \u202D1982 - \u202C', 'icon' : 'images/family_MF.gif', 'color' : '#2E8B57', 'link' : 'family-and-F42.htm','description' : ' женились 17.08.1982'},
+{ 'start' : '19 Dec 2015', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'бракосочетание: Роман Владимирович Попов и Евгения Анатольевна Цуканова \u202D2015 - \u202C', 'icon' : 'images/family_MF.gif', 'color' : '#2E8B57', 'link' : 'family-and-F57.htm','description' : ' женились 19.12.2015 in г. Иркутск'},
+{ 'start' : '22 Dec 1931', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Прасковья Степановна Горюнова (Большедворская) \u202D1931 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I3.htm','description' : 'Дата рождения -\x20 22.12.1931'},
+{ 'start' : '29 Sep 1931', 'end' : '27 Jul 2011', 'isDuration' : 'false', 'title' : 'Василий Иванович Большедворский \u202D1931 - 2011\u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I4.htm','description' : 'Дата рождения -\x20 29.09.1931 Дата смерти -\x20 27.07.2011'},
+{ 'start' : '01 Jan 1924', 'end' : '9 Apr 1945', 'isDuration' : 'false', 'title' : 'Михаил Иванович Большедворский \u202D1924 - 1945\u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I9.htm','description' : 'Дата рождения -\x20 1924 Дата смерти -\x20 9.04.1945'},
+{ 'start' : '20 Jul 1909', 'end' : '01 Aug 1972', 'isDuration' : 'false', 'title' : 'Степан Яковлевич Горюнов \u202D1909 - 1972\u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I14.htm','description' : 'Дата рождения -\x20 20.07.1909 Дата смерти -\x20 08.1972'},
+{ 'start' : '14 Mar 1913', 'end' : '01 Jul 1972', 'isDuration' : 'false', 'title' : 'Евдокия Матвеевна Верхушина (Горюнова) \u202D1913 - 1972\u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I16.htm','description' : 'Дата рождения -\x20 14.03.1913 Дата смерти -\x20 07.1972'},
+{ 'start' : '7 Sep 1954', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Иван Николаевич Ковалёв \u202D1954 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I31.htm','description' : 'Дата рождения -\x20 7.09.1954'},
+{ 'start' : '01 Jan 1901', 'end' : '01 Jan 1986', 'isDuration' : 'false', 'title' : 'Илларион Куприянович Ковалёв \u202D1901 - 1986\u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I32.htm','description' : 'Дата рождения -\x20 1901 Дата смерти -\x20 1986'},
+{ 'start' : '13 Mar 1987', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Николай Иванович Ковалёв \u202D1987 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I37.htm','description' : 'Дата рождения -\x20 13.03.1987'},
+{ 'start' : '5 Mar 1932', 'end' : '10 Jan 1981', 'isDuration' : 'false', 'title' : 'Николай Яковлевич Ковалёв \u202D1932 - 1981\u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I38.htm','description' : 'Дата рождения -\x20 5.03.1932 Дата смерти -\x20 10.01.1981'},
+{ 'start' : '01 Jan 1904', 'end' : '11 Oct 1944', 'isDuration' : 'false', 'title' : 'Яков Иосифович Ковалёв \u202D1904 - 1944\u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I39.htm','description' : 'Дата рождения -\x20 1904 Дата смерти -\x20 11.10.1944'},
+{ 'start' : '23 Feb 1957', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Галина Васильевна Большедворская (Ковалёва) \u202D1957 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I41.htm','description' : 'Дата рождения -\x20 23.02.1957'},
+{ 'start' : '7 Aug 1929', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Зинаида Илларионовна Ковалёва (Ковалёва) \u202D1929 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I43.htm','description' : 'Дата рождения -\x20 7.08.1929'},
+{ 'start' : '18 Jun 1991', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Инна Ивановна Ковалёва \u202D1991 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I44.htm','description' : 'Дата рождения -\x20 18.06.1991'},
+{ 'start' : '14 Oct 1897', 'end' : '01 Jan 1983', 'isDuration' : 'false', 'title' : 'Устинья Тимофеевна Глазкова (Ковалёва) \u202D1897 - 1983\u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I48.htm','description' : 'Дата рождения -\x20 14.10.1897 Дата смерти -\x20 1983'},
+{ 'start' : '14 Aug 1986', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Евгения Анатольевна Цуканова \u202D1986 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I78.htm','description' : 'Дата рождения -\x20 14.08.1986'},
+{ 'start' : '26 Jun 1997', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Александра Николаевна Раздобреева \u202D1997 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I83.htm','description' : 'Дата рождения -\x20 26.06.1997'},
+{ 'start' : '11 Dec 1961', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Мария Васильевна Большедворская (Раздобреева) \u202D1961 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I84.htm','description' : 'Дата рождения -\x20 11.12.1961'},
+{ 'start' : '29 May 1958', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Анатолий Николаевич Цуканов \u202D1958 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I92.htm','description' : 'Дата рождения -\x20 29.05.1958'},
+{ 'start' : '28 Jul 1988', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Вячеслав Анатольевич Цуканов \u202D1988 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I93.htm','description' : 'Дата рождения -\x20 28.07.1988'},
+{ 'start' : '8 Mar 1958', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Светлана Николаевна Цуканова \u202D1958 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I94.htm','description' : 'Дата рождения -\x20 8.03.1958'},
+{ 'start' : '01 Jan 1918', 'title' : 'Яков Горюнов † \u202D1918\u202C', 'icon' : 'images/gender_MX.gif', 'color' : '#1E90FF', 'link' : 'ind00254.htm','description' : 'Дата смерти -\x20 1918'},
+{ 'start' : '01 Jan 1918', 'title' : 'Наталья (Горюнова) † \u202D1918\u202C', 'icon' : 'images/gender_FX.gif', 'color' : '#DC143C', 'link' : 'ind00255.htm','description' : 'Дата смерти -\x20 1918'},
+{ 'start' : '01 Jan 1947', 'title' : 'Матвей Никандрович Верхушин † \u202D1947\u202C', 'icon' : 'images/gender_MX.gif', 'color' : '#1E90FF', 'link' : 'ind00279.htm','description' : 'Дата смерти -\x20 1947'},
+{ 'start' : '01 Jan 1918', 'end' : '15 Sep 1945', 'isDuration' : 'false', 'title' : 'Сергей Матвеевич Верхушин \u202D1918 - 1945\u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'ind00281.htm','description' : 'Дата рождения -\x20 1918 Дата смерти -\x20 15.09.1945'},
+{ 'start' : '01 Jan 1917', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Татьяна Матвеевна Верхушина \u202D1917 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'ind00284.htm','description' : 'Дата рождения -\x20 1917'},
+{ 'start' : '01 Jan 1926', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Степан (Панок) Матвеевич Верхушин \u202D1926 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'ind00286.htm','description' : 'Дата рождения -\x20 1926'},
+{ 'start' : '11 Mar 1963', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Николай Юрьевич Раздобреев \u202D1963 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I81.htm','description' : 'Дата рождения -\x20 11.03.1963'},
+{ 'start' : '2 May 1917', 'end' : '16 May 1991', 'isDuration' : 'false', 'title' : 'Иван Иванович Большедворский \u202D1917 - 1991\u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I7.htm','description' : 'Дата рождения -\x20 2.05.1917 Дата смерти -\x20 16.05.1991'},
+{ 'start' : '01 Jan 1908', 'end' : '01 Jan 1976', 'isDuration' : 'false', 'title' : 'Григорий Никитович Большедворский \u202D1908 - 1976\u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'ind00309.htm','description' : 'Дата рождения -\x20 1908 Дата смерти -\x20 1976'},
+{ 'start' : '01 Apr 1915', 'title' : 'Марфа Ивановна Большедворская (Безбородова) \u202D1915\u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I1.htm','description' : 'Дата рождения -\x20 04.1915'},
+{ 'start' : '8 Apr 1920', 'end' : '21 Jul 1985', 'isDuration' : 'false', 'title' : 'Иосиф Иванович Большедворский \u202D1920 - 1985\u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I8.htm','description' : 'Дата рождения -\x20 8.04.1920 Дата смерти -\x20 21.07.1985'},
+{ 'start' : '7 Nov 1926', 'title' : 'Елена Ивановна Большедворская (Потапова) \u202D1926\u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I80.htm','description' : 'Дата рождения -\x20 7.11.1926'},
+{ 'start' : '01 Dec 1936', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Елена Степановна Горюнова (Федорова) \u202D1936 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I89.htm','description' : 'Дата рождения -\x20 12.1936'},
+{ 'start' : '19 Aug 1938', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Наталья Степановна Горюнова (Москалёва) \u202D1938 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I72.htm','description' : 'Дата рождения -\x20 19.08.1938'},
+{ 'start' : '2 Jan 1941', 'end' : '3 Oct 2007', 'isDuration' : 'false', 'title' : 'Николай Степанович Горюнов \u202D1941 - 2007\u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I13.htm','description' : 'Дата рождения -\x20 2.01.1941 Дата смерти -\x20 3.10.2007'},
+{ 'start' : '27 Aug 1946', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Татьяна Степановна Горюнова (Федорова) \u202D1946 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I91.htm','description' : 'Дата рождения -\x20 27.08.1946'},
+{ 'start' : '18 Aug 1949', 'end' : '28 Oct 2016', 'isDuration' : 'false', 'title' : 'Галина Степановна Горюнова (Матвеева) \u202D1949 - 2016\u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I67.htm','description' : 'Дата рождения -\x20 18.08.1949 Дата смерти -\x20 28.10.2016'},
+{ 'start' : '6 Jun 1952', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Раиса Степановна Горюнова (Маниковская) \u202D1952 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I66.htm','description' : 'Дата рождения -\x20 6.06.1952'},
+{ 'start' : '4 Aug 1954', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Валентина Степановна Горюнова (Захарова) \u202D1954 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I19.htm','description' : 'Дата рождения -\x20 4.08.1954'},
+{ 'start' : '5 Dec 1956', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Надежда Степановна Горюнова (Рубцова) \u202D1956 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I86.htm','description' : 'Дата рождения -\x20 5.12.1956'},
+{ 'start' : '26 Mar 1928', 'end' : '6 Mar 2012', 'isDuration' : 'false', 'title' : 'Ирина Илларионовна Ковалёва (Шмелёва) \u202D1928 - 2012\u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I10.htm','description' : 'Дата рождения -\x20 26.03.1928 Дата смерти -\x20 6.03.2012'},
+{ 'start' : '01 Jan 1923', 'end' : '01 Jan 2010', 'isDuration' : 'false', 'title' : 'Фаина (Феня, Фекла) Илларионовна Ковалёва (Крупенникова) \u202D1923 - 2010\u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I52.htm','description' : 'Дата рождения -\x20 1923 Дата смерти -\x20 2010'},
+{ 'start' : '7 Sep 1918', 'end' : '01 Jan 1987', 'isDuration' : 'false', 'title' : 'Анна (Нюра) Илларионовна Ковалёва (Степных) \u202D1918 - 1987\u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I87.htm','description' : 'Дата рождения -\x20 7.09.1918 Дата смерти -\x20 1987'},
+{ 'start' : '01 Jan 1941', 'title' : 'Василий Илларионович Ковалёв \u202D1941\u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I28.htm','description' : 'Дата рождения -\x20 1941'},
+{ 'start' : '01 Jan 1939', 'end' : '01 Jan 1995', 'isDuration' : 'false', 'title' : 'Владимир Илларионович Ковалёв \u202D1939 - 1995\u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I29.htm','description' : 'Дата рождения -\x20 1939 Дата смерти -\x20 1995'},
+{ 'start' : '12 Aug 1936', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Валентина Илларионовна Ковалёва (Овчинникова) \u202D1936 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I74.htm','description' : 'Дата рождения -\x20 12.08.1936'},
+{ 'start' : '29 Dec 1933', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Клара Илларионовна Ковалёва (Кутневская) \u202D1933 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I54.htm','description' : 'Дата рождения -\x20 29.12.1933'},
+{ 'start' : '01 Jan 1925', 'title' : 'Леон Илларионович Ковалёв \u202D1925\u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I34.htm','description' : 'Дата рождения -\x20 1925'},
+{ 'start' : '01 Jan 1931', 'end' : '01 Jan 1988', 'isDuration' : 'false', 'title' : 'Андрей Илларионович Ковалёв \u202D1931 - 1988\u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I25.htm','description' : 'Дата рождения -\x20 1931 Дата смерти -\x20 1988'},
+{ 'start' : '01 Jan 1905', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Евдокия Матвеевна Верхушина (Гасилова) \u202D1905 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'ind00282.htm','description' : 'Дата рождения -\x20 1905'},
+{ 'start' : '01 Jan 1930', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Иван Матвеевич Верхушин \u202D1930 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'ind00287.htm','description' : 'Дата рождения -\x20 1930'},{'title' : 'Помощь', 'start' : '18 Dec 2016', 'end' : '17 Dec 2066', 'textColor' : 'black', 'color' : 'white', 'isDuration' : 'false', 'icon' : 'images/info.gif', 'description' : 'Нажав на поле Хронологии, тяните мышкой или после щелчка мышкой используйте клавиши клавиатуры следующим образом: \x27Home\x27 - перейти в начало, \x27End\x27 - перейти в конец, \x27Page Up\x27 и \x27Page Down\x27 - передвижение на один экран, курсорные клавиши - движение пока клавиша нажата. После щелчка мышкой по имени персоны появится информационное поле. Щелкнув по названию информационного поля, перейдёте на страницу персоны. Вращение колеса мыши изменяет масштаб шкалы времени.'}],
+'nowTag' : ' сегодня',
+'subtitle': 'Хронология\x20 primary',
+'date' : '17 Dec 1966'}
+  
+			;
+			var tlParam = {
+				data : true,
+				duration : true, 
+				wrapEvents : false
+			};
+			$(function () {
+				timeLineOnLoad(tlParam);
+				window.onresize=timeLineOnResize(tlParam);
+			});
+		</script>
+	<base target="detail"/>
+  
+	</head>
+	<body class='gno-popup'>
+	<div class='curvyboxbackground'>
+ <div class='curvycorners_box'>
+  <div class='curvycorners_top'><div></div></div>
+   <div class='curvycorners_content'>
+
+		<h4 id='subtitle'> </h4>
+		<div class='clear' id='constrainer' style='overflow: auto;'  >
+				<div id="timeline0" style="height: 100%;border: 1px solid #aaa;">
+				</div>
+		</div>
+		   </div>
+  <div class='curvycorners_bottom'><div></div></div>
+ </div>
+</div>
+
+	</body>
+</html>

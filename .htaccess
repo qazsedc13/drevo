@@ -1,0 +1,12 @@
+# Установка кодировки сервера
+AddDefaultCharset utf-8
+
+#Страницы ошибок
+ErrorDocument 403 /errors/block.html
+
+# запрет листинга каталогов
+#Options -Indexes
+
+Order Deny,Allow
+Deny from all
+Allow from 195.211.206.244 176.209.7.72 178.184.196.203

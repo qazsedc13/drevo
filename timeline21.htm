@@ -1,0 +1,62 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns='http://www.w3.org/1999/xhtml'>
+	<head>
+		<meta http-equiv="Content-Language" content="ru-ru"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title></title>
+		<link rel="stylesheet" href="style.css" type="text/css"/>
+		<script type='text/javascript'>
+			Timeline_ajax_url='timeline/ajax/simile-ajax-api.js';
+			Timeline_urlPrefix='timeline/';
+			Timeline_parameters='bundle=true';
+		</script>
+		<script src="timeline/timeline-api.js" type="text/javascript"></script>
+		<script type='text/javascript' src="scripts/jquery.min.js"></script>
+		<script src="scripts/script.js" type="text/javascript"></script>
+		<script  type="text/javascript">
+            SimileAjax.History.enabled = false; // prevent spurious alerts for __History__.html with timelines
+			var tl, json =
+{
+'events' : [
+
+{ 'start' : '29 Dec 1933', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Клара Илларионовна Ковалёва (Кутневская) \u202D1933 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'I54.htm','description' : 'Дата рождения -\x20 29.12.1933'},
+{ 'start' : '5 Jul 1963', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Петр Николаевич Кутневский \u202D1963 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'ind00709.htm','description' : 'Дата рождения -\x20 5.07.1963'},
+{ 'start' : '19 Jul 2010', 'end' : '17 Dec 2016', 'isDuration' : 'false', 'title' : 'Сабина Ильинична Цвик \u202D2010 - \u202C', 'icon' : 'images/gender_F.gif', 'color' : '#DC143C', 'link' : 'ind00713.htm','description' : 'Дата рождения -\x20 19.07.2010'},{'title' : 'Помощь', 'start' : '18 Dec 2016', 'end' : '17 Dec 2066', 'textColor' : 'black', 'color' : 'white', 'isDuration' : 'false', 'icon' : 'images/info.gif', 'description' : 'Нажав на поле Хронологии, тяните мышкой или после щелчка мышкой используйте клавиши клавиатуры следующим образом: \x27Home\x27 - перейти в начало, \x27End\x27 - перейти в конец, \x27Page Up\x27 и \x27Page Down\x27 - передвижение на один экран, курсорные клавиши - движение пока клавиша нажата. После щелчка мышкой по имени персоны появится информационное поле. Щелкнув по названию информационного поля, перейдёте на страницу персоны. Вращение колеса мыши изменяет масштаб шкалы времени.'}],
+'nowTag' : ' сегодня',
+'subtitle': 'Хронология\x20 Клара Илларионовна Ковалёва (Кутневская)',
+'date' : '17 Dec 1966'}
+  
+			;
+			var tlParam = {
+				data : true,
+				duration : true, 
+				wrapEvents : false
+			};
+			$(function () {
+				timeLineOnLoad(tlParam);
+				window.onresize=timeLineOnResize(tlParam);
+			});
+		</script>
+	<base target="detail"/>
+  
+	</head>
+	<body class='gno-popup'>
+	<div class='curvyboxbackground'>
+ <div class='curvycorners_box'>
+  <div class='curvycorners_top'><div></div></div>
+   <div class='curvycorners_content'>
+
+		<h4 id='subtitle'> </h4>
+		<div class='clear' id='constrainer' style='overflow: auto;'  >
+				<div id="timeline0" style="height: 100%;border: 1px solid #aaa;">
+				</div>
+		</div>
+		   </div>
+  <div class='curvycorners_bottom'><div></div></div>
+ </div>
+</div>
+
+	</body>
+</html>
