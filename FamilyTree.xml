@@ -71,11 +71,11 @@
 </Global>
 <GenoMaps>
 <GenoMap Name="primary" Zoom="50" Position="-1,-2" BoundaryRect="-2521,961,2519,-966"/>
-<GenoMap Name="Раздобреевы" Position="9,-52" BoundaryRect="-193,207,211,-311"/>
-<GenoMap Name="Иван Иванович Большедворский" Position="-2021,-342" BoundaryRect="-2629,-68,-1413,-616"/>
+<GenoMap Name="Раздобреевы" Position="11,-52" BoundaryRect="-190,207,212,-311"/>
+<GenoMap Name="Иван Иванович Большедворский" Position="-2017,-342" BoundaryRect="-2622,-68,-1413,-616"/>
 <GenoMap Name="Григорий Никитович Большедворский" Zoom="50" Position="51,-48" BoundaryRect="-964,227,1066,-323"/>
 <GenoMap Name="Марфа Ивановна Большедворская (Безбородов)" Position="-10,-13" BoundaryRect="-246,457,226,-483"/>
-<GenoMap Name="Иосиф Иванович Большедворский" Position="115,-74" BoundaryRect="-180,232,411,-380"/>
+<GenoMap Name="Иосиф Иванович Большедворский" Position="113,-74" BoundaryRect="-180,232,407,-380"/>
 <GenoMap Name="Елена Ивановна Большедворская (Потапова)" Position="58,-77" BoundaryRect="-567,212,684,-366"/>
 <GenoMap Name="Елена Степановна Горюнова (Федорова)" Position="-14,1" BoundaryRect="-321,212,292,-210"/>
 <GenoMap Name="Наталья Степановна Горюнова (Москалёва)" Position="78,-39" BoundaryRect="-96,212,252,-291"/>
@@ -774,6 +774,15 @@
   <Pictures Primary="pic00010">pic00010, pic00104, pic00110</Pictures>
   <Contacts>contact00007, contact00100</Contacts>
   <Position BoundaryRect="-1203,-868,-1127,-961">-1165,-900</Position>
+  <Display>
+    <Colors>
+      <Gender>
+        <Fill Mask="1">
+          <Top Left="#C00000" Right="#008000"/>
+        </Fill>
+      </Gender>
+    </Colors>
+  </Display>
   <Gender>M</Gender>
   <Birth>
     <Date>13 Mar 1987</Date>
@@ -7376,6 +7385,7 @@
       <Right>-760,-360</Right>
     </Bottom>
   </Position>
+  <Relation>Marriage</Relation>
 </Family>
 <Family ID="F17">
   <Position>-500,580
@@ -7388,6 +7398,7 @@
       <Right>760,550</Right>
     </Bottom>
   </Position>
+  <Relation>Marriage</Relation>
 </Family>
 <Family ID="F18">
   <Position GenoMap="Раиса Степановна Горюнова (Маниковская)">-190,-70
@@ -7528,6 +7539,7 @@
       <Right>-305,710</Right>
     </Bottom>
   </Position>
+  <FamilyLine>PossiblyMoreChildren</FamilyLine>
 </Family>
 <Family ID="F33">
   <Pictures Primary="pic00092">pic00092</Pictures>
@@ -8278,6 +8290,7 @@
       <Right>2060,435</Right>
     </Top>
   </Position>
+  <FamilyLine>PossiblyMoreChildren</FamilyLine>
 </Family>
 <Family ID="fam00151">
   <Position GenoMap="Надежда Степановна Горюнова (Рубцова)">65,-250
@@ -8450,6 +8463,7 @@
       <Right>-670,-70</Right>
     </Top>
   </Position>
+  <FamilyLine>PossiblyMoreChildren</FamilyLine>
 </Family>
 <Family ID="fam00169">
   <Position GenoMap="Елена Ивановна Большедворская (Потапова)">300,-225
@@ -9844,7 +9858,7 @@
   <Name>Николай Ковалёв</Name>
   <Description>В ТЦ Аура, г. Новосибирск</Description>
   <Cache FileSize="145383" Dimension="682x1024" Megapixels="0.69" BPP="24" DPI="300"/>
-  <Date>15 Apr 2014</Date>
+  <Date>15 Mar 2014</Date>
   <Place>place00013</Place>
 </Picture>
 <Picture ID="pic00011">

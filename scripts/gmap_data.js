@@ -15,4 +15,4 @@
 	} else {
 		alert('Failed to load Google Maps API - check Internet connection !!');
 	}
-	gMap.typeDefault=3;
+	gMap.typeDefault=2;
