@@ -9,10 +9,10 @@ Options -Indexes
 
 #Order Deny,Allow
 #Deny from all
-#Allow from 195.211.206.244 176.209.7.72 178.184.196.203
+#Allow from 195.211.206.244 176.209.8.46 178.184.196.203
            #Мой НСК         Чикой        Женя Иркутск
 		   
 AuthType Basic
 AuthName "Авторизация"
-AuthUserFile .htpasswd
+AuthUserFile /drevo/.htpasswd
 Require valid-user
