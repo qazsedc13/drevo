@@ -14,5 +14,5 @@ Options -Indexes
            
 AuthType Basic
 AuthName "Private zone"
-AuthUserFile /home/q/qazsedc13/qazsedc13.ru/public_html/drevo/.htpasswd
+AuthUserFile /home/q/qazsedc13/qazsedc13.bget.ru/public_html/drevo/.htpasswd
 Require valid-user
