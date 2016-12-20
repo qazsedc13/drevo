@@ -5,7 +5,7 @@
     <Version>3.0.0.7</Version>
     <Address>http://www.genopro.com</Address>
   </Software>
-  <Date>18 Dec 2016</Date>
+  <Date>20 Dec 2016</Date>
 
 <Global>
   <Name>
@@ -70,7 +70,7 @@
   <ActiveGenoMap>primary</ActiveGenoMap>
 </Global>
 <GenoMaps>
-<GenoMap Name="primary" Zoom="50" Position="-1,-2" BoundaryRect="-2521,961,2519,-966"/>
+<GenoMap Name="primary" Zoom="50" Position="-1,0" BoundaryRect="-2782,961,2780,-961"/>
 <GenoMap Name="Раздобреевы" Position="11,-52" BoundaryRect="-190,207,212,-311"/>
 <GenoMap Name="Иван Иванович Большедворский" Position="-2017,-342" BoundaryRect="-2622,-68,-1413,-616"/>
 <GenoMap Name="Григорий Никитович Большедворский" Zoom="50" Position="51,-48" BoundaryRect="-964,227,1066,-323"/>
@@ -87,10 +87,10 @@
 <GenoMap Name="Надежда Степановна Горюнова (Рубцова)" Position="-18,-114" BoundaryRect="-221,157,185,-386"/>
 <GenoMap Name="Ирина Илларионовна Ковалёва (Шмелёва)" Zoom="50" Position="-40,82" BoundaryRect="-907,596,826,-431"/>
 <GenoMap Name="Фаина Илларионовна Ковалёва (Крупенникова)" Position="729,-107" BoundaryRect="216,87,1243,-301"/>
-<GenoMap Name="Анна Илларионовна Ковалёва (Степных)" Position="188,-122" BoundaryRect="-296,286,673,-531"/>
+<GenoMap Name="Анна Илларионовна Ковалёва (Степных)" Position="180,-122" BoundaryRect="-356,286,716,-531"/>
 <GenoMap Name="Василий Илларионович Ковалёв" Position="-1,-119" BoundaryRect="-104,12,101,-250"/>
 <GenoMap Name="Владимир Илларионович Ковалёв" Position="104,-102" BoundaryRect="-377,172,586,-376"/>
-<GenoMap Name="Валентина Илларионовна Ковалёва (Овчинникова)" Position="13,-60" BoundaryRect="-141,192,168,-312"/>
+<GenoMap Name="Валентина Илларионовна Ковалёва (Овчинникова)" Position="78,-45" BoundaryRect="-119,192,276,-282"/>
 <GenoMap Name="Клара Илларионовна Ковалёва (Кутневская)" Position="-109,-42" BoundaryRect="-351,217,133,-301"/>
 <GenoMap Name="Андрей Яковлевич Ковалёв" Position="-195,-97" BoundaryRect="-456,106,66,-301"/>
 <GenoMap Name="Роман Владимирович Попов" Position="43,-87" BoundaryRect="-110,21,196,-196"/>
@@ -109,7 +109,7 @@
 <GenoMap Name="Иван Матвеевич Верхушин" Position="-68,-2" BoundaryRect="-190,127,54,-131"/>
 <GenoMap Name="Прасковья Матвеевна Верхушина (Семёнова)" Position="-128,64" BoundaryRect="-248,176,-8,-48"/>
 <GenoMap Name="Дарья Матвеевна Верхушина (Мельникова)" Position="-79,-36" BoundaryRect="-192,76,34,-148"/>
-<GenoMap Name="Андрей Куприянович Ковалёв" Position="-50,7" BoundaryRect="-192,171,92,-156"/>
+<GenoMap Name="Андрей Куприянович Ковалёв" Position="-50,10" BoundaryRect="-192,177,92,-156"/>
 </GenoMaps>
 <Individuals>
 <Individual ID="I1">
@@ -135,7 +135,7 @@
     <Middle>Георгиевна</Middle>
     <Last>Большедворская</Last>
   </Name>
-  <Position BoundaryRect="-462,686,-359,599">-410,660</Position>
+  <Position BoundaryRect="-287,691,-184,604">-235,665</Position>
   <Gender>F</Gender>
   <IsDead>Y</IsDead>
   <_UID>1adELqXOOP</_UID>
@@ -149,7 +149,7 @@
     <Last2>Большедворская</Last2>
   </Name>
   <Contacts>contact00101</Contacts>
-  <Position BoundaryRect="829,97,961,4">895,65</Position>
+  <Position BoundaryRect="1004,102,1136,9">1070,70</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>22 Dec 1931</Date>
@@ -182,7 +182,7 @@
   </Name>
   <Pictures Primary="pic00129">pic00129</Pictures>
   <Contacts>contact00058</Contacts>
-  <Position BoundaryRect="689,97,831,4">760,65</Position>
+  <Position BoundaryRect="864,102,1006,9">935,70</Position>
   <Display>
     <Colors>
       <Gender>
@@ -228,7 +228,7 @@
     <Middle>Никитович</Middle>
     <Last>Большедворский</Last>
   </Name>
-  <Position BoundaryRect="-582,686,-479,599">-530,660</Position>
+  <Position BoundaryRect="-407,691,-304,604">-355,665</Position>
   <Gender>M</Gender>
   <IsDead>Y</IsDead>
   <_UID>1adELqrpk2</_UID>
@@ -276,7 +276,7 @@
     <Middle>Иванович</Middle>
     <Last>Большедворский</Last>
   </Name>
-  <Position BoundaryRect="-1452,532,-1348,439">-1400,500</Position>
+  <Position BoundaryRect="-1277,537,-1173,444">-1225,505</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>1924</Date>
@@ -323,7 +323,7 @@
     <Middle>Филипович</Middle>
     <Last>Глазков</Last>
   </Name>
-  <Position BoundaryRect="268,-64,341,-151">305,-90</Position>
+  <Position BoundaryRect="443,-59,516,-146">480,-85</Position>
   <Gender>M</Gender>
   <IsDead>Y</IsDead>
   <Comment>Раскулачен, умер в ссылке в Красноярском крае, на севере</Comment>
@@ -336,7 +336,7 @@
     <Last>Кузьмина</Last>
     <Last2>Глазкова</Last2>
   </Name>
-  <Position BoundaryRect="354,-64,425,-151">390,-90</Position>
+  <Position BoundaryRect="529,-59,600,-146">565,-85</Position>
   <Gender>F</Gender>
   <IsDead>Y</IsDead>
   <_UID>1adELqrhms</_UID>
@@ -372,7 +372,7 @@
     <Middle>Яковлевич</Middle>
     <Last>Горюнов</Last>
   </Name>
-  <Position BoundaryRect="946,262,1074,169">1010,230</Position>
+  <Position BoundaryRect="1121,267,1249,174">1185,235</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>20 Jul 1909</Date>
@@ -425,7 +425,7 @@
     <Last>Верхушина</Last>
     <Last2>Горюнова</Last2>
   </Name>
-  <Position BoundaryRect="1762,262,1888,169">1825,230</Position>
+  <Position BoundaryRect="1937,267,2063,174">2000,235</Position>
   <Display>
     <Colors>
       <Gender>
@@ -665,7 +665,7 @@
   </Name>
   <Pictures Primary="pic00086">pic00086, pic00087, pic00105, pic00107, pic00114</Pictures>
   <Contacts>contact00009</Contacts>
-  <Position BoundaryRect="-1194,-508,-1117,-601">-1155,-540</Position>
+  <Position BoundaryRect="-1019,-503,-942,-596">-980,-535</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>7 Sep 1954</Date>
@@ -698,7 +698,8 @@
     <Middle>Куприянович</Middle>
     <Last>Ковалёв</Last>
   </Name>
-  <Position BoundaryRect="-297,-218,-213,-311">-255,-250</Position>
+  <Contacts>contact00132</Contacts>
+  <Position BoundaryRect="-122,-213,-38,-306">-80,-245</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>1901</Date>
@@ -708,7 +709,7 @@
     <Date>1986</Date>
     <Place>place00007</Place>
   </Death>
-  <Comment>охотник, рыбак, в его честь в Фомичево названа &quot;Ларина падь&quot;, был строгий, волевой. воевал в гражданскую и ВО войну. внуков всех любил.</Comment>
+  <Comment>охотник, рыбак, в его честь в Фомичево названа &quot;Ларина падь&quot;, был строгий, волевой. воевал в гражданскую и ВО войну. внуков всех любил. По другим сведениям прошёл 3 войны. 1) Гражданская. 2) Затем участвовал в войне с японийе в 1920 г. или в 1939г. После войны ходил такой стих (рассказала бабушка Зина, в интернете: Ю.Якушев и Ю.Ельников – Дальневосточная (Музыка: Ю.Милютин Слова: В.Винников)):&#10;&#10;Японцы-генералы&#10;Мечтали до Урала,&#10;Мечтали до Урала добрести.&#10;Пошли они в двадцатом&#10;К Уралу воровато,&#10;Да встретились с Байкалом на пути.&#10;&#10;Припев:&#10;На Байкале&#10;Наломали вам бока,&#10;Били, били, говорили:&#10;&quot;Ну, пока!&quot;&#10;&#10;Семнадцать лет старались,&#10;Семнадцать лет пытались&#10;Забраться незаметно к нам в карман.&#10;Однажды на границу&#10;Пришли попить водицы,&#10;Пришли попить из озера Хасан.&#10;&#10;Припев:&#10;На Хасане&#10;Наломали вам бока,&#10;Били, били, говорили:&#10;&quot;Ну, пока!&quot;&#10;&#10;Два раза, без &quot;банзая&quot;&#10;Оружие бросая,&#10;Как зайцам, приходилось вам бежать.&#10;А в третий обещаем:&#10;Мы так вас &quot;разбанзаем&quot;,&#10;Что будете не бегать, а лежать!&#10;&#10;Припев:&#10;Дважды мяли&#10;И ломали вам бока,&#10;Били, били, говорили:&#10;&quot;Ну, пока!&quot;&#10;&#10;Все вышло, как сказали, &#10;Вконец мы &quot;разбанзали&quot; &#10;Японских самураев в третий раз. &#10;Сегодня ж повторяем &#10;Не только самураям, &#10;А всем, кто задирать мечтает нас. &#10;&#10;Чтоб не мяли, &#10;Не ломали вам бока, &#10;К нам не лезьте, &#10;Просим честью мы пока!&#10;&#10;3) ВОВ, после контузии и окончания войны был направлен работать в г. Горький, на военный завод, и оттуда уже вернулся в 1947 г. домой.</Comment>
   <Occupations>occu00001</Occupations>
   <_UID>1adELqT4GA</_UID>
 </Individual>
@@ -719,9 +720,10 @@
     <Middle>Прокопьевич</Middle>
     <Last>Ковалёв</Last>
   </Name>
-  <Position BoundaryRect="-762,-94,-679,-181">-720,-120</Position>
+  <Position BoundaryRect="-787,-89,-704,-176">-745,-115</Position>
   <Gender>M</Gender>
   <IsDead>Y</IsDead>
+  <Comment>После смерти Марии (воспаление груди) Куприян, в 60 лет, практически сразу женился на молодой Аграфене (30 лет).</Comment>
   <_UID>1adELqnevj</_UID>
 </Individual>
 <Individual ID="I34">
@@ -773,7 +775,7 @@
   </Name>
   <Pictures Primary="pic00010">pic00010, pic00104, pic00110</Pictures>
   <Contacts>contact00007, contact00100</Contacts>
-  <Position BoundaryRect="-1203,-868,-1127,-961">-1165,-900</Position>
+  <Position BoundaryRect="-1028,-863,-952,-956">-990,-895</Position>
   <Display>
     <Colors>
       <Gender>
@@ -813,7 +815,7 @@
     <Last>Ковалёв</Last>
   </Name>
   <Contacts>contact00089</Contacts>
-  <Position BoundaryRect="-1250,-378,-1111,-471">-1180,-410</Position>
+  <Position BoundaryRect="-1075,-373,-936,-466">-1005,-405</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>5 Mar 1932</Date>
@@ -839,7 +841,7 @@
     <Middle>Иосифович</Middle>
     <Last>Ковалёв</Last>
   </Name>
-  <Position BoundaryRect="-1070,-213,-961,-306">-1015,-245</Position>
+  <Position BoundaryRect="-965,-198,-856,-291">-910,-230</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>1904</Date>
@@ -879,7 +881,7 @@
   </Name>
   <Pictures Primary="pic00111">pic00111, pic00113</Pictures>
   <Contacts>contact00006</Contacts>
-  <Position BoundaryRect="621,-703,738,-796">680,-735</Position>
+  <Position BoundaryRect="796,-698,913,-791">855,-730</Position>
   <Display>
     <Colors>
       <Gender>
@@ -935,13 +937,13 @@
   </Name>
   <Pictures Primary="pic00164">pic00162, pic00163, pic00164</Pictures>
   <Contacts>contact00103</Contacts>
-  <Position BoundaryRect="-150,-378,-21,-471">-85,-410</Position>
+  <Position BoundaryRect="25,-373,154,-466">90,-405</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>7 Aug 1929</Date>
     <Place>place00003</Place>
   </Birth>
-  <Comment>Работала на ферме. дояркой или телятницей. живет до сих пор в родительском доме. труженица, работает&#32; с утра до ночи, чай молоко не пьет, пьет компоты. тянучий деревенский говор. двое детей&#32; Иван и Света. Заготавливала черемуху, сушила и молола на мельнице, мешками привозили в Онохой и в город (У.Удэ) черемуховую муку.</Comment>
+  <Comment>Закончила 4 класса общеобразовательной школы, началась война. Через год пошла работать – полола хлеб, помогала на сенокосе и жать пшеницу, чистила бороны. В 15 лет отправили работать в пос.Бада, участок Алагой на лесозаготовительные работы. Женщины пилили лес ручной пилой, валили, мужчины грузили и увозили. Жили в общежитии.&#10;С 16 лет работала в колхозе дояркой, телятницей стала работать уже в предпенсионном возрасте.&#10;Очень трудолюбива, подсобное хозяйство держала до 82 лет (коровы, свиньи, куры), в настоящее время – только свиньи, большой огород – 25сот.&#10;&#10;Награждена 3-мя медалями «За доблестный труд в тылу».&#10;Активная, добрая, прямая, волевая. Живет до сих пор в родительском доме. Труженица, работает с утра до ночи, чай не пьет, пьет горячую воду с молоком и называет этот напиток чаем. Тянучий деревенский говор.&#10;Замуж вышла в 23 года за Ковалева Николая Яковлевича.</Comment>
   <Occupations>occu00004</Occupations>
   <_UID>1adELqxjyR</_UID>
 </Individual>
@@ -954,7 +956,7 @@
   </Name>
   <Pictures Primary="pic00109">pic00011, pic00098, pic00099, pic00100, pic00109</Pictures>
   <Contacts>contact00008</Contacts>
-  <Position BoundaryRect="-1118,-868,-1043,-961">-1080,-900</Position>
+  <Position BoundaryRect="-943,-863,-868,-956">-905,-895</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>18 Jun 1991</Date>
@@ -976,9 +978,14 @@
     <Last>Коновалова</Last>
     <Last2>Ковалёва</Last2>
   </Name>
-  <Position BoundaryRect="51,-94,159,-181">105,-120</Position>
+  <Position BoundaryRect="226,-89,334,-176">280,-115</Position>
   <Gender>F</Gender>
   <IsDead>Y</IsDead>
+  <Death>
+    <Cause>
+      <Description>Воспаление груди</Description>
+    </Cause>
+  </Death>
   <_UID>1adELq5wr3</_UID>
 </Individual>
 <Individual ID="I46">
@@ -988,7 +995,7 @@
     <Middle>Сергеевна</Middle>
     <Last>Ковалёва</Last>
   </Name>
-  <Position BoundaryRect="-960,-219,-890,-306">-925,-245</Position>
+  <Position BoundaryRect="-830,-209,-760,-296">-795,-235</Position>
   <Gender>F</Gender>
   <IsDead>Y</IsDead>
   <_UID>1adELquf4v</_UID>
@@ -1012,7 +1019,7 @@
     <Last>Глазкова</Last>
     <Last2>Ковалёва</Last2>
   </Name>
-  <Position BoundaryRect="132,-218,257,-311">195,-250</Position>
+  <Position BoundaryRect="307,-213,432,-306">370,-245</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>14 Oct 1897</Date>
@@ -1426,10 +1433,10 @@
     <Last>Овчинникова</Last>
   </Name>
   <Contacts>contact00052</Contacts>
-  <Position GenoMap="Валентина Илларионовна Ковалёва (Овчинникова)" BoundaryRect="-73,-98,12,-191">-30,-130</Position>
+  <Position GenoMap="Валентина Илларионовна Ковалёва (Овчинникова)" BoundaryRect="142,-73,227,-166">185,-105</Position>
   <Gender>F</Gender>
   <Birth>
-    <Date>13 Jun 1993</Date>
+    <Date>13 Jun 1983</Date>
   </Birth>
   <_UID>1adELqxQv3</_UID>
 </Individual>
@@ -1441,8 +1448,11 @@
     <Last>Овчинникова</Last>
   </Name>
   <Contacts>contact00051</Contacts>
-  <Position GenoMap="Валентина Илларионовна Ковалёва (Овчинникова)" BoundaryRect="32,-104,117,-191">75,-130</Position>
+  <Position GenoMap="Валентина Илларионовна Ковалёва (Овчинникова)" BoundaryRect="-28,-73,57,-166">15,-105</Position>
   <Gender>F</Gender>
+  <Birth>
+    <Date>29 Jul 1978</Date>
+  </Birth>
   <_UID>1adELq6zjK</_UID>
 </Individual>
 <Individual ID="I77">
@@ -1468,7 +1478,7 @@
   </Name>
   <Pictures Primary="pic00175">pic00173, pic00174, pic00175</Pictures>
   <Contacts>contact00043</Contacts>
-  <Position BoundaryRect="-1007,-668,-893,-761">-950,-700</Position>
+  <Position BoundaryRect="-817,-663,-703,-756">-760,-695</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>14 Aug 1986</Date>
@@ -1562,7 +1572,7 @@
   </Name>
   <Pictures Primary="pic00002">pic00002</Pictures>
   <Contacts>contact00003, contact00026</Contacts>
-  <Position BoundaryRect="774,-193,856,-286">815,-225</Position>
+  <Position BoundaryRect="949,-188,1031,-281">990,-220</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>26 Jun 1997</Date>
@@ -1597,7 +1607,7 @@
   </Name>
   <Pictures Primary="pic00094">pic00094, pic00143</Pictures>
   <Contacts>contact00002</Contacts>
-  <Position BoundaryRect="848,-63,961,-156">905,-95</Position>
+  <Position BoundaryRect="1023,-58,1136,-151">1080,-90</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>11 Dec 1961</Date>
@@ -1765,7 +1775,7 @@
     <Last>Цуканов</Last>
   </Name>
   <Pictures Primary="pic00160">pic00160</Pictures>
-  <Position BoundaryRect="-969,-523,-891,-616">-930,-555</Position>
+  <Position BoundaryRect="-769,-503,-691,-596">-730,-535</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>29 May 1958</Date>
@@ -1781,7 +1791,7 @@
   </Name>
   <Pictures Primary="pic00037">pic00037</Pictures>
   <Contacts>contact00039</Contacts>
-  <Position BoundaryRect="-893,-668,-808,-761">-850,-700</Position>
+  <Position BoundaryRect="-688,-663,-603,-756">-645,-695</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>28 Jul 1988</Date>
@@ -1816,7 +1826,7 @@
   </Name>
   <Pictures Primary="pic00102">pic00101, pic00102, pic00156</Pictures>
   <Contacts>contact00042</Contacts>
-  <Position BoundaryRect="-879,-508,-802,-601">-840,-540</Position>
+  <Position BoundaryRect="-674,-503,-597,-596">-635,-535</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>8 Mar 1958</Date>
@@ -1928,7 +1938,7 @@
     <Display>Георгий</Display>
     <First>Георгий</First>
   </Name>
-  <Position BoundaryRect="-423,831,-367,772">-395,805</Position>
+  <Position BoundaryRect="-248,836,-192,777">-220,810</Position>
   <Gender>M</Gender>
   <IsDead>Y</IsDead>
   <_UID>1adELqHSDL</_UID>
@@ -3535,7 +3545,7 @@
     <Middle>Васильевич</Middle>
     <Last>Степных</Last>
   </Name>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-144,12,-66,-81">-105,-20</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-204,12,-126,-81">-165,-20</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>1939</Date>
@@ -3556,7 +3566,7 @@
   </Name>
   <Pictures Primary="pic00083">pic00083, pic00141</Pictures>
   <Contacts>contact00045</Contacts>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="557,12,673,-81">615,-20</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="497,12,613,-81">555,-20</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>2 Aug 1947</Date>
@@ -3571,7 +3581,7 @@
     <Middle>Алексеевич</Middle>
     <Last>Ланцов</Last>
   </Name>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="434,12,566,-81">500,-20</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="374,12,506,-81">440,-20</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>1 Oct 1946</Date>
@@ -3593,7 +3603,7 @@
   </Name>
   <Pictures Primary="pic00081">pic00081</Pictures>
   <Contacts>contact00091</Contacts>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="378,-258,501,-351">440,-290</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="318,-258,441,-351">380,-290</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>31 Mar 1972</Date>
@@ -3610,7 +3620,7 @@
     <Last>Ланцова</Last>
   </Name>
   <Contacts>contact00048</Contacts>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="586,-148,663,-241">625,-180</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="526,-148,603,-241">565,-180</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>5 Jan 1981</Date>
@@ -3625,7 +3635,7 @@
     <Middle>Григорьевна</Middle>
     <Last2>Степных</Last2>
   </Name>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-51,12,30,-81">-10,-20</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-111,12,-30,-81">-70,-20</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>1936</Date>
@@ -3640,7 +3650,7 @@
     <Middle>Владимирович</Middle>
     <Last>Степных</Last>
   </Name>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-261,-148,-169,-241">-215,-180</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-321,-148,-229,-241">-275,-180</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>1961</Date>
@@ -3658,7 +3668,7 @@
     <Middle>Владимирович</Middle>
     <Last>Степных</Last>
   </Name>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="24,-148,116,-241">70,-180</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-36,-148,56,-241">10,-180</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>1968</Date>
@@ -3673,7 +3683,7 @@
     <Last>Фетищев</Last>
   </Name>
   <Contacts>contact00091</Contacts>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="252,-258,328,-351">290,-290</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="192,-258,268,-351">230,-290</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>10 Apr 1967</Date>
@@ -3690,7 +3700,7 @@
   </Name>
   <Pictures Primary="pic00079">pic00079</Pictures>
   <Contacts>contact00120</Contacts>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="199,-418,270,-511">235,-450</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="139,-418,210,-511">175,-450</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>9 Sep 1995</Date>
@@ -3708,7 +3718,7 @@
     <Last>Фетищев</Last>
   </Name>
   <Contacts>contact00091</Contacts>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="284,-418,355,-511">320,-450</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="224,-418,295,-511">260,-450</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>9 Sep 1995</Date>
@@ -3725,7 +3735,7 @@
   </Name>
   <Pictures Primary="pic00080">pic00080</Pictures>
   <Contacts>contact00091</Contacts>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="366,-418,444,-511">405,-450</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="306,-418,384,-511">345,-450</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>27 Aug 2009</Date>
@@ -3799,7 +3809,7 @@
   <_UID>1adELQRIaX</_UID>
 </Individual>
 <Individual ID="I233">
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="519,-174,571,-226">545,-200</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="459,-174,511,-226">485,-200</Position>
   <Gender>M</Gender>
   <_UID>1adELQyEq1</_UID>
 </Individual>
@@ -3811,7 +3821,7 @@
   </Name>
   <Pictures Primary="pic00082">pic00082</Pictures>
   <Contacts>contact00122</Contacts>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="532,-278,607,-357">570,-310</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="472,-278,547,-357">510,-310</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>17 Oct 2014</Date>
@@ -3830,7 +3840,7 @@
   <_UID>1adELQV9oN</_UID>
 </Individual>
 <Individual ID="I236">
-  <Position GenoMap="Валентина Илларионовна Ковалёва (Овчинникова)" BoundaryRect="-141,-124,-89,-176">-115,-150</Position>
+  <Position GenoMap="Валентина Илларионовна Ковалёва (Овчинникова)" BoundaryRect="74,-94,126,-146">100,-120</Position>
   <Gender>M</Gender>
   <_UID>1adELQvHKO</_UID>
 </Individual>
@@ -3840,7 +3850,7 @@
     <First>Ярослав</First>
     <Last>Овчинников</Last>
   </Name>
-  <Position GenoMap="Валентина Илларионовна Ковалёва (Овчинникова)" BoundaryRect="-130,-239,-51,-312">-90,-265</Position>
+  <Position GenoMap="Валентина Илларионовна Ковалёва (Овчинникова)" BoundaryRect="80,-209,159,-282">120,-235</Position>
   <Gender>M</Gender>
   <_UID>1adELQWmFN</_UID>
 </Individual>
@@ -3863,7 +3873,7 @@
     <Middle>Тимофеевна</Middle>
     <Last>Глазкова</Last>
   </Name>
-  <Position BoundaryRect="369,-224,450,-311">410,-250</Position>
+  <Position BoundaryRect="544,-219,625,-306">585,-245</Position>
   <Gender>F</Gender>
   <IsDead>Y</IsDead>
   <_UID>1adELQWSpF</_UID>
@@ -3875,7 +3885,7 @@
     <Middle>Тимофеевич</Middle>
     <Last>Глазков</Last>
   </Name>
-  <Position BoundaryRect="464,-224,545,-311">505,-250</Position>
+  <Position BoundaryRect="639,-219,720,-306">680,-245</Position>
   <Gender>M</Gender>
   <IsDead>Y</IsDead>
   <_UID>1adELQl08j</_UID>
@@ -3887,9 +3897,12 @@
     <Middle>Куприянович</Middle>
     <Last>Ковалёв</Last>
   </Name>
-  <Position GenoMap="Андрей Куприянович Ковалёв" BoundaryRect="-192,171,-108,84">-150,145</Position>
+  <Position GenoMap="Андрей Куприянович Ковалёв" BoundaryRect="-192,177,-108,84">-150,145</Position>
   <Gender>M</Gender>
   <IsDead>Y</IsDead>
+  <Death>
+    <Date>2013</Date>
+  </Death>
   <_UID>1adELQlfuu</_UID>
 </Individual>
 <Individual ID="I242">
@@ -3899,7 +3912,7 @@
     <Middle>Куприянович</Middle>
     <Last>Ковалёв</Last>
   </Name>
-  <Position BoundaryRect="-642,-224,-558,-311">-600,-250</Position>
+  <Position BoundaryRect="-667,-219,-583,-306">-625,-245</Position>
   <Gender>M</Gender>
   <_UID>1adELQIgqz</_UID>
 </Individual>
@@ -3910,17 +3923,18 @@
     <Middle>Куприянович</Middle>
     <Last>Ковалёв</Last>
   </Name>
-  <Position BoundaryRect="-542,-224,-458,-311">-500,-250</Position>
+  <Position BoundaryRect="-567,-219,-483,-306">-525,-245</Position>
   <Gender>M</Gender>
   <_UID>1adELQNjvz</_UID>
 </Individual>
 <Individual ID="I244">
-  <Name>Аграфена Ивановна
-    <Display>Аграфена Ивановна</Display>
+  <Name>Аграфена Ивановна (Ковалёва)
+    <Display>Аграфена Ивановна (Ковалёва)</Display>
     <First>Аграфена</First>
     <Middle>Ивановна</Middle>
+    <Last2>Ковалёва</Last2>
   </Name>
-  <Position BoundaryRect="-355,-104,-286,-177">-320,-130</Position>
+  <Position BoundaryRect="-183,-89,-108,-176">-145,-115</Position>
   <Gender>F</Gender>
   <IsDead>Y</IsDead>
   <_UID>1adELQNTL2</_UID>
@@ -3931,8 +3945,9 @@
     <First>Ирина</First>
     <Middle>Куприяновна</Middle>
     <Last>Ковалёва</Last>
+    <Alternative>Арина</Alternative>
   </Name>
-  <Position BoundaryRect="-442,-224,-358,-311">-400,-250</Position>
+  <Position BoundaryRect="-467,-219,-383,-306">-425,-245</Position>
   <Gender>F</Gender>
   <_UID>1adELQ4iKX</_UID>
 </Individual>
@@ -3943,9 +3958,13 @@
     <Middle>Куприянович</Middle>
     <Last>Ковалёв</Last>
   </Name>
-  <Position BoundaryRect="-197,-224,-113,-311">-155,-250</Position>
+  <Position BoundaryRect="-22,-213,62,-306">20,-245</Position>
   <Gender>M</Gender>
   <IsDead>Y</IsDead>
+  <Death>
+    <Date>1914</Date>
+    <Cause>War</Cause>
+  </Death>
   <Comment>Погиб в войне 1914 г.</Comment>
   <_UID>1adELQu0JU</_UID>
 </Individual>
@@ -3956,9 +3975,13 @@
     <Middle>Куприянович</Middle>
     <Last>Ковалёв</Last>
   </Name>
-  <Position BoundaryRect="-97,-224,16,-311">-40,-250</Position>
+  <Position BoundaryRect="78,-213,191,-306">135,-245</Position>
   <Gender>M</Gender>
   <IsDead>Y</IsDead>
+  <Death>
+    <Date>1942</Date>
+    <Cause>War</Cause>
+  </Death>
   <Comment>Погиб на войне 1942 или 1943</Comment>
   <_UID>1adELQyqsm</_UID>
 </Individual>
@@ -3969,7 +3992,7 @@
     <Middle>Куприяновна</Middle>
     <Last>Ковалёва</Last>
   </Name>
-  <Position BoundaryRect="33,-224,117,-311">75,-250</Position>
+  <Position BoundaryRect="208,-219,292,-306">250,-245</Position>
   <Gender>F</Gender>
   <_UID>1adELQNNQD</_UID>
 </Individual>
@@ -3979,13 +4002,13 @@
     <First>Андрей</First>
     <Last>Коновалов</Last>
   </Name>
-  <Position BoundaryRect="-82,56,-9,-17">-45,30</Position>
+  <Position BoundaryRect="93,61,166,-12">130,35</Position>
   <Gender>M</Gender>
   <IsDead>Y</IsDead>
   <_UID>1adELQdZF5</_UID>
 </Individual>
 <Individual ID="I251">
-  <Position BoundaryRect="9,51,61,-1">35,25</Position>
+  <Position BoundaryRect="184,56,236,4">210,30</Position>
   <Gender>F</Gender>
   <IsDead>Y</IsDead>
   <_UID>1adELQGQe4</_UID>
@@ -3997,7 +4020,7 @@
     <Middle>Андреевич</Middle>
     <Last>Коновалов</Last>
   </Name>
-  <Position BoundaryRect="-147,-94,-74,-181">-110,-120</Position>
+  <Position BoundaryRect="28,-89,101,-176">65,-115</Position>
   <Gender>M</Gender>
   <IsDead>Y</IsDead>
   <_UID>1adELQrQyY</_UID>
@@ -4009,7 +4032,7 @@
     <Middle>Андреевна</Middle>
     <Last>Коновалова</Last>
   </Name>
-  <Position BoundaryRect="-56,-94,35,-181">-10,-120</Position>
+  <Position BoundaryRect="119,-89,210,-176">165,-115</Position>
   <Gender>F</Gender>
   <IsDead>Y</IsDead>
   <_UID>1adELQQdG8</_UID>
@@ -4020,7 +4043,7 @@
     <First>Яков</First>
     <Last>Горюнов</Last>
   </Name>
-  <Position BoundaryRect="1219,407,1280,328">1250,375</Position>
+  <Position BoundaryRect="1394,412,1455,333">1425,380</Position>
   <Gender>M</Gender>
   <IsDead>Y</IsDead>
   <Death>
@@ -4035,7 +4058,7 @@
     <First>Наталья</First>
     <Last2>Горюнова</Last2>
   </Name>
-  <Position BoundaryRect="1297,407,1372,328">1335,375</Position>
+  <Position BoundaryRect="1472,412,1547,333">1510,380</Position>
   <Gender>F</Gender>
   <IsDead>Y</IsDead>
   <Death>
@@ -4052,7 +4075,7 @@
     <Last>Горюнова</Last>
     <Nick>Авдулята</Nick>
   </Name>
-  <Position BoundaryRect="1063,256,1136,169">1100,230</Position>
+  <Position BoundaryRect="1238,261,1311,174">1275,235</Position>
   <Gender>F</Gender>
   <Comment>Старшая сестра, взяли к себе Степана Яковлевича</Comment>
 </Individual>
@@ -4234,7 +4257,7 @@
     <Middle>Никандрович</Middle>
     <Last>Верхушин</Last>
   </Name>
-  <Position BoundaryRect="1968,422,2051,329">2010,390</Position>
+  <Position BoundaryRect="2143,427,2226,334">2185,395</Position>
   <Gender>M</Gender>
   <IsDead>Y</IsDead>
   <Death>
@@ -4247,7 +4270,7 @@
     <First>Варвара</First>
     <Last2>Верхушина</Last2>
   </Name>
-  <Position BoundaryRect="2104,401,2185,328">2145,375</Position>
+  <Position BoundaryRect="2279,406,2360,333">2320,380</Position>
   <Gender>F</Gender>
   <IsDead>Y</IsDead>
   <Comment>Умерла до войны</Comment>
@@ -4259,7 +4282,7 @@
     <Middle>Матвеевич</Middle>
     <Last>Верхушин</Last>
   </Name>
-  <Position BoundaryRect="1969,262,2080,169">2025,230</Position>
+  <Position BoundaryRect="2144,267,2255,174">2200,235</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>1918</Date>
@@ -4309,7 +4332,7 @@
     <Middle>Матвеевна</Middle>
     <Last>Верхушина</Last>
   </Name>
-  <Position BoundaryRect="1898,262,1972,169">1935,230</Position>
+  <Position BoundaryRect="2073,267,2147,174">2110,235</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>1917</Date>
@@ -4336,7 +4359,7 @@
     <Last>Верхушин</Last>
     <Nick>Панок</Nick>
   </Name>
-  <Position BoundaryRect="2078,262,2152,169">2115,230</Position>
+  <Position BoundaryRect="2253,267,2327,174">2290,235</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>1926</Date>
@@ -4508,7 +4531,7 @@
     <First>Никита</First>
     <Last>Большедворский</Last>
   </Name>
-  <Position BoundaryRect="-2427,921,-2324,848">-2375,895</Position>
+  <Position BoundaryRect="-2782,946,-2679,873">-2730,920</Position>
   <Gender>M</Gender>
   <IsDead>Y</IsDead>
 </Individual>
@@ -4519,7 +4542,7 @@
     <Middle>Григорьевна</Middle>
     <Last2>Большедворская</Last2>
   </Name>
-  <Position BoundaryRect="669,961,780,874">725,935</Position>
+  <Position BoundaryRect="2669,961,2780,874">2725,935</Position>
   <Gender>F</Gender>
   <IsDead>Y</IsDead>
 </Individual>
@@ -4528,7 +4551,7 @@
     <Display>Матрёша</Display>
     <First>Матрёша</First>
   </Name>
-  <Position BoundaryRect="-2521,906,-2459,847">-2490,880</Position>
+  <Position BoundaryRect="-2661,941,-2599,882">-2630,915</Position>
   <Gender>F</Gender>
   <IsDead>Y</IsDead>
   <Comment>Вырастила</Comment>
@@ -4559,7 +4582,7 @@
     <Middle>Никитович</Middle>
     <Last>Большедворский</Last>
   </Name>
-  <Position BoundaryRect="-2287,801,-2184,714">-2235,775</Position>
+  <Position BoundaryRect="-2592,826,-2489,739">-2540,800</Position>
   <Gender>M</Gender>
 </Individual>
 <Individual ID="ind00311">
@@ -4569,7 +4592,7 @@
     <Middle>Никитович</Middle>
     <Last>Большедворский</Last>
   </Name>
-  <Position BoundaryRect="-2167,801,-2064,714">-2115,775</Position>
+  <Position BoundaryRect="-2472,826,-2369,739">-2420,800</Position>
   <Gender>M</Gender>
   <Comment>Официальная версия: Ушел в монголию, закрыли границу, больше ничего не известно.&#10;Правдивая версия: Ушел с белогвардейцами казаками</Comment>
 </Individual>
@@ -4590,7 +4613,7 @@
     <Middle>Никитишна</Middle>
     <Last>Большедворская</Last>
   </Name>
-  <Position BoundaryRect="-1807,801,-1704,714">-1755,775</Position>
+  <Position BoundaryRect="-2112,826,-2009,739">-2060,800</Position>
   <Gender>F</Gender>
 </Individual>
 <Individual ID="ind00314">
@@ -4600,7 +4623,7 @@
     <Middle>Никитишна</Middle>
     <Last>Большедворская</Last>
   </Name>
-  <Position BoundaryRect="-1927,801,-1824,714">-1875,775</Position>
+  <Position BoundaryRect="-2232,826,-2129,739">-2180,800</Position>
   <Gender>F</Gender>
 </Individual>
 <Individual ID="ind00315">
@@ -4610,7 +4633,7 @@
     <Middle>Никитишна</Middle>
     <Last>Большедворская</Last>
   </Name>
-  <Position BoundaryRect="-1692,801,-1589,714">-1640,775</Position>
+  <Position BoundaryRect="-1997,826,-1894,739">-1945,800</Position>
   <Gender>F</Gender>
 </Individual>
 <Individual ID="ind00316">
@@ -4620,7 +4643,7 @@
     <Middle>Никитишна</Middle>
     <Last>Большедворская</Last>
   </Name>
-  <Position BoundaryRect="-1572,801,-1469,714">-1520,775</Position>
+  <Position BoundaryRect="-1877,826,-1774,739">-1825,800</Position>
   <Gender>F</Gender>
 </Individual>
 <Individual ID="ind00317">
@@ -4629,7 +4652,7 @@
     <First>Иван</First>
     <Middle>Георгиевич</Middle>
   </Name>
-  <Position BoundaryRect="-343,686,-268,613">-305,660</Position>
+  <Position BoundaryRect="-168,691,-93,618">-130,665</Position>
   <Gender>M</Gender>
   <IsDead>Y</IsDead>
   <Comment>г. Балей</Comment>
@@ -4640,12 +4663,12 @@
     <First>Никандр</First>
     <Last>Верхушин</Last>
   </Name>
-  <Position BoundaryRect="1951,531,2018,458">1985,505</Position>
+  <Position BoundaryRect="2126,536,2193,463">2160,510</Position>
   <Gender>M</Gender>
   <IsDead>Y</IsDead>
 </Individual>
 <Individual ID="ind00319">
-  <Position BoundaryRect="2034,526,2086,474">2060,500</Position>
+  <Position BoundaryRect="2209,531,2261,479">2235,505</Position>
   <Gender>F</Gender>
   <IsDead>Y</IsDead>
 </Individual>
@@ -5117,12 +5140,12 @@
     <First>Прокопий</First>
     <Last>Ковалёв</Last>
   </Name>
-  <Position BoundaryRect="-777,26,-713,-47">-745,0</Position>
+  <Position BoundaryRect="-802,31,-738,-42">-770,5</Position>
   <Gender>M</Gender>
   <IsDead>Y</IsDead>
 </Individual>
 <Individual ID="ind00471">
-  <Position BoundaryRect="-696,21,-644,-31">-670,-5</Position>
+  <Position BoundaryRect="-721,26,-669,-26">-695,0</Position>
   <Gender>F</Gender>
   <IsDead>Y</IsDead>
 </Individual>
@@ -5671,11 +5694,11 @@
     <First>Павел</First>
     <Last>Фетищев</Last>
   </Name>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="233,-149,296,-222">265,-175</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="173,-149,236,-222">205,-175</Position>
   <Gender>M</Gender>
 </Individual>
 <Individual ID="ind00521">
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="314,-154,366,-206">340,-180</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="254,-154,306,-206">280,-180</Position>
   <Gender>F</Gender>
 </Individual>
 <Individual ID="ind00522">
@@ -5862,7 +5885,7 @@
     <Middle>Никитовна</Middle>
     <Last>Большедворская</Last>
   </Name>
-  <Position BoundaryRect="-1452,801,-1349,714">-1400,775</Position>
+  <Position BoundaryRect="-1757,826,-1654,739">-1705,800</Position>
   <Gender>F</Gender>
 </Individual>
 <Individual ID="ind00545">
@@ -5958,7 +5981,7 @@
     <First>Наталья</First>
     <Last2>Степных</Last2>
   </Name>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-157,-163,-83,-242">-120,-195</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-217,-163,-143,-242">-180,-195</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>1960</Date>
@@ -5975,14 +5998,14 @@
     <Middle>Валерьевна</Middle>
     <Last>Степных</Last>
   </Name>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-229,-278,-151,-371">-190,-310</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-289,-278,-211,-371">-250,-310</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>1989</Date>
   </Birth>
 </Individual>
 <Individual ID="ind00669">
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-296,-304,-244,-356">-270,-330</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-356,-304,-304,-356">-330,-330</Position>
   <Gender>M</Gender>
 </Individual>
 <Individual ID="ind00670">
@@ -5990,14 +6013,14 @@
     <Display>Даниил</Display>
     <First>Даниил</First>
   </Name>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-277,-408,-223,-473">-250,-440</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-337,-408,-283,-473">-310,-440</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>2008</Date>
   </Birth>
 </Individual>
 <Individual ID="ind00671">
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="129,-174,181,-226">155,-200</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="69,-174,121,-226">95,-200</Position>
   <Gender>F</Gender>
 </Individual>
 <Individual ID="ind00672">
@@ -6007,7 +6030,7 @@
     <Middle>Александровна</Middle>
     <Last>Степных</Last>
   </Name>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="47,-278,143,-371">95,-310</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-13,-278,83,-371">35,-310</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>1990</Date>
@@ -6019,7 +6042,7 @@
     <First>Анатолий</First>
     <Last>Шарков</Last>
   </Name>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-38,-293,28,-372">-5,-325</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-98,-293,-32,-372">-65,-325</Position>
   <Gender>M</Gender>
   <Birth>
     <Date>1979</Date>
@@ -6032,7 +6055,7 @@
     <Middle>Анатольевич</Middle>
     <Last>Шарков</Last>
   </Name>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="32,-444,117,-531">75,-470</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-28,-444,57,-531">15,-470</Position>
   <Gender>M</Gender>
 </Individual>
 <Individual ID="ind00675">
@@ -6042,7 +6065,7 @@
     <Middle>Анатольевна</Middle>
     <Last>Шаркова</Last>
   </Name>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-68,-438,17,-531">-25,-470</Position>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="-128,-438,-43,-531">-85,-470</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>2013</Date>
@@ -6462,13 +6485,14 @@
     <Middle>Владимировна</Middle>
     <Last>Петрова</Last>
   </Name>
-  <Contacts>contact00106</Contacts>
+  <Contacts>contact00106, contact00134</Contacts>
   <Position GenoMap="Фаина Илларионовна Ковалёва (Крупенникова)" BoundaryRect="494,-208,586,-301">540,-240</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>11 Feb 1997</Date>
     <Place>place00020</Place>
   </Birth>
+  <Educations>edu00012</Educations>
 </Individual>
 <Individual ID="ind00707">
   <Name>Николай Петрович Кутневский
@@ -6601,6 +6625,10 @@
   <Position GenoMap="Владимир Илларионович Ковалёв" BoundaryRect="494,6,586,-81">540,-20</Position>
   <Gender>M</Gender>
   <IsDead>Y</IsDead>
+  <Death>
+    <Age>14</Age>
+    <Comment>В 14 лет катался на велосипеде с братом Иваном, и его насмерть сбила машина</Comment>
+  </Death>
 </Individual>
 <Individual ID="ind00718">
   <Name>Ольга Геннадьевна Мишульская (Ковалёва)
@@ -6758,7 +6786,7 @@
     <Last2>Овчинникова</Last2>
   </Name>
   <Contacts>contact00050</Contacts>
-  <Position GenoMap="Валентина Илларионовна Ковалёва (Овчинникова)" BoundaryRect="58,62,151,-31">105,30</Position>
+  <Position GenoMap="Валентина Илларионовна Ковалёва (Овчинникова)" BoundaryRect="183,62,276,-31">230,30</Position>
   <Gender>F</Gender>
   <Birth>
     <Date>5 Oct 1953</Date>
@@ -6766,13 +6794,21 @@
   </Birth>
 </Individual>
 <Individual ID="ind00731">
-  <Name>Константин Овчинников
-    <Display>Константин Овчинников</Display>
+  <Name>Константин Григорьевич Овчинников
+    <Display>Константин Григорьевич Овчинников</Display>
     <First>Константин</First>
+    <Middle>Григорьевич</Middle>
     <Last>Овчинников</Last>
   </Name>
-  <Position GenoMap="Валентина Илларионовна Ковалёва (Овчинникова)" BoundaryRect="-70,171,9,98">-30,145</Position>
+  <Position GenoMap="Валентина Илларионовна Ковалёва (Овчинникова)" BoundaryRect="-100,192,30,99">-35,160</Position>
   <Gender>M</Gender>
+  <Birth>
+    <Date>13 Mar 1929</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>Oct 1998</Date>
+  </Death>
 </Individual>
 <Individual ID="ind00732">
   <Name>Валенов
@@ -6840,6 +6876,7 @@
     <Middle>Павловна</Middle>
     <Last>Крупенников</Last>
   </Name>
+  <Contacts>contact00133</Contacts>
   <Position GenoMap="Фаина Илларионовна Ковалёва (Крупенникова)" BoundaryRect="1108,-48,1191,-141">1150,-80</Position>
   <Gender>F</Gender>
   <Birth>
@@ -6851,229 +6888,229 @@
   <Name>
     <Display>Николай Юрьевич Раздобреев</Display>
   </Name>
-  <Position BoundaryRect="757,-63,833,-156">795,-95</Position>
+  <Position BoundaryRect="932,-58,1008,-151">970,-90</Position>
 </Individual>
 <Individual ID="ind00740" IndividualInternalHyperlink="I7">
   <Name>
     <Display>Иван Иванович Большедворский</Display>
   </Name>
-  <Position BoundaryRect="-1712,532,-1568,439">-1640,500</Position>
+  <Position BoundaryRect="-1537,537,-1393,444">-1465,505</Position>
 </Individual>
 <Individual ID="ind00741" IndividualInternalHyperlink="ind00309">
   <Name>
     <Display>Григорий Никитович Большедворский</Display>
   </Name>
-  <Position BoundaryRect="-2402,807,-2299,714">-2350,775</Position>
+  <Position BoundaryRect="-2707,832,-2604,739">-2655,800</Position>
 </Individual>
 <Individual ID="ind00742" IndividualInternalHyperlink="I1">
   <Name>
     <Display>Марфа Ивановна Большедворская (Безбородова)</Display>
   </Name>
-  <Position BoundaryRect="-1813,532,-1707,439">-1760,500</Position>
+  <Position BoundaryRect="-1638,537,-1532,444">-1585,505</Position>
 </Individual>
 <Individual ID="ind00743" IndividualInternalHyperlink="I8">
   <Name>
     <Display>Иосиф Иванович Большедворский</Display>
   </Name>
-  <Position BoundaryRect="-1588,532,-1453,439">-1520,500</Position>
+  <Position BoundaryRect="-1413,537,-1278,444">-1345,505</Position>
 </Individual>
 <Individual ID="ind00744" IndividualInternalHyperlink="I80">
   <Name>
     <Display>Елена Ивановна Большедворская (Потапова)</Display>
   </Name>
-  <Position BoundaryRect="-1332,532,-1229,439">-1280,500</Position>
+  <Position BoundaryRect="-1157,537,-1054,444">-1105,505</Position>
 </Individual>
 <Individual ID="ind00745" IndividualInternalHyperlink="I89">
   <Name>
     <Display>Елена Степановна Горюнова (Федорова)</Display>
   </Name>
-  <Position BoundaryRect="974,97,1085,4">1030,65</Position>
+  <Position BoundaryRect="1149,102,1260,9">1205,70</Position>
 </Individual>
 <Individual ID="ind00746" IndividualInternalHyperlink="I72">
   <Name>
     <Display>Наталья Степановна Горюнова (Москалёва)</Display>
   </Name>
-  <Position BoundaryRect="1103,97,1227,4">1165,65</Position>
+  <Position BoundaryRect="1278,102,1402,9">1340,70</Position>
 </Individual>
 <Individual ID="ind00747" IndividualInternalHyperlink="I13">
   <Name>
     <Display>Николай Степанович Горюнов</Display>
   </Name>
-  <Position BoundaryRect="1214,97,1346,4">1280,65</Position>
+  <Position BoundaryRect="1389,102,1521,9">1455,70</Position>
 </Individual>
 <Individual ID="ind00748" IndividualInternalHyperlink="I91">
   <Name>
     <Display>Татьяна Степановна Горюнова (Федорова)</Display>
   </Name>
-  <Position BoundaryRect="1338,97,1461,4">1400,65</Position>
+  <Position BoundaryRect="1513,102,1636,9">1575,70</Position>
 </Individual>
 <Individual ID="ind00749" IndividualInternalHyperlink="I67">
   <Name>
     <Display>Галина Степановна Горюнова (Матвеева)</Display>
   </Name>
-  <Position BoundaryRect="1461,97,1608,4">1535,65</Position>
+  <Position BoundaryRect="1636,102,1783,9">1710,70</Position>
 </Individual>
 <Individual ID="ind00750" IndividualInternalHyperlink="I66">
   <Name>
     <Display>Раиса Степановна Горюнова (Маниковская)</Display>
   </Name>
-  <Position BoundaryRect="1609,97,1720,4">1665,65</Position>
+  <Position BoundaryRect="1784,102,1895,9">1840,70</Position>
 </Individual>
 <Individual ID="ind00751" IndividualInternalHyperlink="I19">
   <Name>
     <Display>Валентина Степановна Горюнова (Захарова)</Display>
   </Name>
-  <Position BoundaryRect="1736,97,1864,4">1800,65</Position>
+  <Position BoundaryRect="1911,102,2039,9">1975,70</Position>
 </Individual>
 <Individual ID="ind00752" IndividualInternalHyperlink="I86">
   <Name>
     <Display>Надежда Степановна Горюнова (Рубцова)</Display>
   </Name>
-  <Position BoundaryRect="1879,97,2000,4">1940,65</Position>
+  <Position BoundaryRect="2054,102,2175,9">2115,70</Position>
 </Individual>
 <Individual ID="ind00753" IndividualInternalHyperlink="I10">
   <Name>
     <Display>Ирина Илларионовна Ковалёва (Шмелёва)</Display>
   </Name>
-  <Position BoundaryRect="-300,-378,-160,-471">-230,-410</Position>
+  <Position BoundaryRect="-125,-373,15,-466">-55,-405</Position>
 </Individual>
 <Individual ID="ind00754" IndividualInternalHyperlink="I52">
   <Name>
     <Display>Фаина Илларионовна Ковалёва (Крупенникова)</Display>
   </Name>
-  <Position BoundaryRect="-544,-378,-417,-471">-480,-410</Position>
+  <Position BoundaryRect="-369,-373,-242,-466">-305,-405</Position>
 </Individual>
 <Individual ID="ind00755" IndividualInternalHyperlink="I87">
   <Name>
     <Display>Анна Илларионовна Ковалёва (Степных)</Display>
   </Name>
-  <Position BoundaryRect="-681,-378,-560,-471">-620,-410</Position>
+  <Position BoundaryRect="-506,-373,-385,-466">-445,-405</Position>
 </Individual>
 <Individual ID="ind00756" IndividualInternalHyperlink="I28">
   <Name>
     <Display>Василий Илларионович Ковалёв</Display>
   </Name>
-  <Position BoundaryRect="514,-378,606,-471">560,-410</Position>
+  <Position BoundaryRect="689,-373,781,-466">735,-405</Position>
 </Individual>
 <Individual ID="ind00757" IndividualInternalHyperlink="I29">
   <Name>
     <Display>Владимир Илларионович Ковалёв</Display>
   </Name>
-  <Position BoundaryRect="404,-378,496,-471">450,-410</Position>
+  <Position BoundaryRect="579,-373,671,-466">625,-405</Position>
 </Individual>
 <Individual ID="ind00758" IndividualInternalHyperlink="I74">
   <Name>
     <Display>Валентина Илларионовна Ковалёва (Овчинникова)</Display>
   </Name>
-  <Position BoundaryRect="242,-378,388,-471">315,-410</Position>
+  <Position BoundaryRect="417,-373,563,-466">490,-405</Position>
 </Individual>
 <Individual ID="ind00759" IndividualInternalHyperlink="I54">
   <Name>
     <Display>Клара Илларионовна Ковалёва (Кутневская)</Display>
   </Name>
-  <Position BoundaryRect="102,-378,228,-471">165,-410</Position>
+  <Position BoundaryRect="277,-373,403,-466">340,-405</Position>
 </Individual>
 <Individual ID="ind00760" IndividualInternalHyperlink="I26">
   <Name>
     <Display>Андрей Яковлевич Ковалёв</Display>
   </Name>
-  <Position BoundaryRect="-1127,-384,-1054,-471">-1090,-410</Position>
+  <Position BoundaryRect="-952,-379,-879,-466">-915,-405</Position>
 </Individual>
 <Individual ID="ind00761" IndividualInternalHyperlink="I77">
   <Name>
     <Display>Роман Владимирович Попов</Display>
   </Name>
-  <Position BoundaryRect="-1101,-674,-1009,-761">-1055,-700</Position>
+  <Position BoundaryRect="-926,-669,-834,-756">-880,-695</Position>
 </Individual>
 <Individual ID="ind00762" IndividualInternalHyperlink="I42">
   <Name>
     <Display>Евдокия Яковлевна Ковалёва</Display>
   </Name>
-  <Position BoundaryRect="-1037,-384,-964,-471">-1000,-410</Position>
+  <Position BoundaryRect="-862,-379,-789,-466">-825,-405</Position>
 </Individual>
 <Individual ID="ind00763" IndividualInternalHyperlink="ind00312">
   <Name>
     <Display>Мария Никитишна Большедворская</Display>
   </Name>
-  <Position BoundaryRect="-2047,801,-1944,714">-1995,775</Position>
+  <Position BoundaryRect="-2352,826,-2249,739">-2300,800</Position>
 </Individual>
 <Individual ID="ind00764" IndividualInternalHyperlink="I50">
   <Name>
     <Display>Тамара Яковлевна Ковалёва (Кожемякина)</Display>
   </Name>
-  <Position BoundaryRect="-947,-384,-833,-471">-890,-410</Position>
+  <Position BoundaryRect="-772,-379,-658,-466">-715,-405</Position>
 </Individual>
 <Individual ID="ind00765" IndividualInternalHyperlink="I51">
   <Name>
     <Display>Клавдия Яковлевна Ковалёва (Козлова)</Display>
   </Name>
-  <Position BoundaryRect="-820,-384,-700,-471">-760,-410</Position>
+  <Position BoundaryRect="-645,-379,-525,-466">-585,-405</Position>
 </Individual>
 <Individual ID="ind00766" IndividualInternalHyperlink="I34">
   <Name>
     <Display>Леон Илларионович Ковалёв</Display>
   </Name>
-  <Position BoundaryRect="-401,-378,-309,-471">-355,-410</Position>
+  <Position BoundaryRect="-226,-373,-134,-466">-180,-405</Position>
 </Individual>
 <Individual ID="ind00767" IndividualInternalHyperlink="I25">
   <Name>
     <Display>Андрей Илларионович Ковалёв</Display>
   </Name>
-  <Position BoundaryRect="-6,-378,86,-471">40,-410</Position>
+  <Position BoundaryRect="169,-373,261,-466">215,-405</Position>
 </Individual>
 <Individual ID="ind00768" IndividualInternalHyperlink="I238">
   <Name>
     <Display>Маркел Тимофеевич Глазков</Display>
   </Name>
-  <Position BoundaryRect="274,-224,355,-311">315,-250</Position>
+  <Position BoundaryRect="449,-219,530,-306">490,-245</Position>
 </Individual>
 <Individual ID="ind00769" IndividualInternalHyperlink="ind00257">
   <Name>
     <Display>Евдокия Яковлевна Горюнова (Верхушина)</Display>
   </Name>
-  <Position BoundaryRect="1151,256,1269,169">1210,230</Position>
+  <Position BoundaryRect="1326,261,1444,174">1385,235</Position>
 </Individual>
 <Individual ID="ind00770" IndividualInternalHyperlink="ind00258">
   <Name>
     <Display>Ульяна Яковлевна Горюнова (Федорова)</Display>
   </Name>
-  <Position BoundaryRect="1283,256,1396,169">1340,230</Position>
+  <Position BoundaryRect="1458,261,1571,174">1515,235</Position>
 </Individual>
 <Individual ID="ind00771" IndividualInternalHyperlink="ind00259">
   <Name>
     <Display>Серафима (Симка) Яковлевна Горюнова</Display>
   </Name>
-  <Position BoundaryRect="1414,256,1526,169">1470,230</Position>
+  <Position BoundaryRect="1589,261,1701,174">1645,235</Position>
 </Individual>
 <Individual ID="ind00772" IndividualInternalHyperlink="ind00260">
   <Name>
     <Display>Полина Яковлевна Горюнова</Display>
   </Name>
-  <Position BoundaryRect="1543,256,1616,169">1580,230</Position>
+  <Position BoundaryRect="1718,261,1791,174">1755,235</Position>
 </Individual>
 <Individual ID="ind00773" IndividualInternalHyperlink="ind00282">
   <Name>
     <Display>Евдокия Матвеевна Верхушина (Гасилова)</Display>
   </Name>
-  <Position BoundaryRect="1630,262,1749,169">1690,230</Position>
+  <Position BoundaryRect="1805,267,1924,174">1865,235</Position>
 </Individual>
 <Individual ID="ind00774" IndividualInternalHyperlink="ind00287">
   <Name>
     <Display>Иван Матвеевич Верхушин</Display>
   </Name>
-  <Position BoundaryRect="2168,262,2242,169">2205,230</Position>
+  <Position BoundaryRect="2343,267,2417,174">2380,235</Position>
 </Individual>
 <Individual ID="ind00775" IndividualInternalHyperlink="ind00283">
   <Name>
     <Display>Парунька (Прасковья) Матвеевна Верхушина (Семёнова)</Display>
   </Name>
-  <Position BoundaryRect="2258,256,2392,169">2325,230</Position>
+  <Position BoundaryRect="2433,261,2567,174">2500,235</Position>
 </Individual>
 <Individual ID="ind00776" IndividualInternalHyperlink="ind00285">
   <Name>
     <Display>Дарья Матвеевна Верхушина (Мельникова)</Display>
   </Name>
-  <Position BoundaryRect="2410,256,2519,169">2465,230</Position>
+  <Position BoundaryRect="2585,261,2694,174">2640,235</Position>
 </Individual>
 <Individual ID="ind00777">
   <Position GenoMap="Андрей Илларионович Ковалёв" BoundaryRect="129,106,181,54">155,80</Position>
@@ -7092,7 +7129,7 @@
   <Gender>M</Gender>
 </Individual>
 <Individual ID="ind00781">
-  <Position BoundaryRect="-351,831,-299,779">-325,805</Position>
+  <Position BoundaryRect="-176,836,-124,784">-150,810</Position>
   <Gender>F</Gender>
   <IsDead>Y</IsDead>
 </Individual>
@@ -7101,9 +7138,9 @@
   <Gender>F</Gender>
 </Individual>
 <Individual ID="ind00783">
-  <Name>Ирина? (Ковалёва)
-    <Display>Ирина? (Ковалёва)</Display>
-    <First>Ирина?</First>
+  <Name>Ирина (Ковалёва)
+    <Display>Ирина (Ковалёва)</Display>
+    <First>Ирина</First>
     <Last2>Ковалёва</Last2>
   </Name>
   <Position GenoMap="Андрей Куприянович Ковалёв" BoundaryRect="-93,162,-18,83">-55,130</Position>
@@ -7132,7 +7169,7 @@
   <Name>
     <Display>Андрей Куприянович Ковалёв</Display>
   </Name>
-  <Position BoundaryRect="-742,-224,-658,-311">-700,-250</Position>
+  <Position BoundaryRect="-767,-213,-683,-306">-725,-245</Position>
 </Individual>
 <Individual ID="ind00786">
   <Name>Мария Семёнова (Ковалёва)
@@ -7180,6 +7217,54 @@
     <Date>20 Sep</Date>
     <Place>place00003</Place>
   </Birth>
+</Individual>
+<Individual ID="ind00789">
+  <Name>Екатерина Куприяновна Ковалёв
+    <Display>Екатерина Куприяновна Ковалёв</Display>
+    <First>Екатерина</First>
+    <Middle>Куприяновна</Middle>
+    <Last>Ковалёв</Last>
+  </Name>
+  <Position BoundaryRect="-367,-219,-283,-306">-325,-245</Position>
+  <Gender>F</Gender>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Cause>Infant</Cause>
+    <Comment>Умерла от голода совсем маленькой, во время войны</Comment>
+  </Death>
+  <Comment>Умерла от голода совсем маленькой, во время войны</Comment>
+</Individual>
+<Individual ID="ind00790">
+  <Name>Василий Куприянович Ковалёв
+    <Display>Василий Куприянович Ковалёв</Display>
+    <First>Василий</First>
+    <Middle>Куприянович</Middle>
+    <Last>Ковалёв</Last>
+  </Name>
+  <Position BoundaryRect="-267,-219,-183,-306">-225,-245</Position>
+  <Gender>M</Gender>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Cause>Infant</Cause>
+    <Comment>Умер от голода совсем маленький во время войны</Comment>
+  </Death>
+  <Comment>Умер от голода совсем маленький во время войны</Comment>
+</Individual>
+<Individual ID="ind00791">
+  <Name>Тамара Васильевна Степных
+    <Display>Тамара Васильевна Степных</Display>
+    <First>Тамара</First>
+    <Middle>Васильевна</Middle>
+    <Last>Степных</Last>
+  </Name>
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)" BoundaryRect="631,6,709,-81">670,-20</Position>
+  <Gender>F</Gender>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Cause>RespiratoryOrPneumonia
+      <Description>Воспаление легких</Description>
+    </Cause>
+  </Death>
 </Individual>
 </Individuals>
 <Families>
@@ -7238,28 +7323,28 @@
 </Family>
 <Family ID="F5">
   <Pictures Primary="pic00093">pic00093, pic00103</Pictures>
-  <Position>1040,145
+  <Position>1215,150
     <Top>
-      <Left>1010,145</Left>
-      <Right>1825,145</Right>
+      <Left>1185,150</Left>
+      <Right>2000,150</Right>
     </Top>
     <Bottom>
-      <Left>895,115</Left>
-      <Right>1940,115</Right>
+      <Left>1070,120</Left>
+      <Right>2115,120</Right>
     </Bottom>
   </Position>
   <Relation>Marriage</Relation>
   <Unions>marr00016</Unions>
 </Family>
 <Family ID="F6">
-  <Position>-225,-330
+  <Position>-50,-325
     <Top>
-      <Left>-255,-330</Left>
-      <Right>195,-330</Right>
+      <Left>-80,-325</Left>
+      <Right>370,-325</Right>
     </Top>
     <Bottom>
-      <Left>-620,-360</Left>
-      <Right>560,-360</Right>
+      <Left>-445,-355</Left>
+      <Right>735,-355</Right>
     </Bottom>
   </Position>
   <Relation>Marriage</Relation>
@@ -7324,14 +7409,14 @@
   <Relationships>d15</Relationships>
 </Family>
 <Family ID="F12">
-  <Position>335,-170
+  <Position>510,-165
     <Top>
-      <Left>305,-170</Left>
-      <Right>390,-170</Right>
+      <Left>480,-165</Left>
+      <Right>565,-165</Right>
     </Top>
     <Bottom>
-      <Left>195,-200</Left>
-      <Right>505,-200</Right>
+      <Left>370,-195</Left>
+      <Right>680,-195</Right>
     </Bottom>
   </Position>
   <Relation>Marriage</Relation>
@@ -7375,27 +7460,27 @@
   <Relation>Marriage</Relation>
 </Family>
 <Family ID="F16">
-  <Position>-985,-330
+  <Position>-810,-325
     <Top>
-      <Left>-1015,-330</Left>
-      <Right>-925,-330</Right>
+      <Left>-910,-325</Left>
+      <Right>-795,-325</Right>
     </Top>
     <Bottom>
-      <Left>-1180,-360</Left>
-      <Right>-760,-360</Right>
+      <Left>-1005,-355</Left>
+      <Right>-585,-355</Right>
     </Bottom>
   </Position>
   <Relation>Marriage</Relation>
 </Family>
 <Family ID="F17">
-  <Position>-500,580
+  <Position>-325,585
     <Top>
-      <Left>-530,580</Left>
-      <Right>-410,580</Right>
+      <Left>-355,585</Left>
+      <Right>-235,585</Right>
     </Top>
     <Bottom>
-      <Left>-1760,550</Left>
-      <Right>760,550</Right>
+      <Left>-1585,555</Left>
+      <Right>935,555</Right>
     </Bottom>
   </Position>
   <Relation>Marriage</Relation>
@@ -7414,14 +7499,14 @@
 </Family>
 <Family ID="F19">
   <Pictures Primary="pic00172">pic00172</Pictures>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">-75,-100
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">-135,-100
     <Top>
-      <Left>-105,-100</Left>
-      <Right>-10,-100</Right>
+      <Left>-165,-100</Left>
+      <Right>-70,-100</Right>
     </Top>
     <Bottom>
-      <Left>-215,-130</Left>
-      <Right>70,-130</Right>
+      <Left>-275,-130</Left>
+      <Right>10,-130</Right>
     </Bottom>
   </Position>
   <Relation>Marriage</Relation>
@@ -7439,10 +7524,10 @@
   </Position>
 </Family>
 <Family ID="F21">
-  <Position>-690,-200
+  <Position>-715,-195
     <Top>
-      <Left>-720,-200</Left>
-      <Right>-320,-200</Right>
+      <Left>-745,-195</Left>
+      <Right>-145,-195</Right>
     </Top>
   </Position>
   <Relation>Marriage</Relation>
@@ -7464,12 +7549,8 @@
   <Position GenoMap="Валентина Илларионовна Ковалёва (Овчинникова)">20,-55
     <Top>
       <Left>-10,-55</Left>
-      <Right>105,-55</Right>
+      <Right>230,-55</Right>
     </Top>
-    <Bottom>
-      <Left>-30,-85</Left>
-      <Right>75,-85</Right>
-    </Bottom>
   </Position>
   <Relation>Marriage</Relation>
 </Family>
@@ -7487,10 +7568,10 @@
   <Relation>Marriage</Relation>
 </Family>
 <Family ID="F25">
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">575,-260
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">515,-260
     <Top>
-      <Left>545,-260</Left>
-      <Right>625,-260</Right>
+      <Left>485,-260</Left>
+      <Right>565,-260</Right>
     </Top>
   </Position>
 </Family>
@@ -7529,27 +7610,28 @@
   <Relation>Widowed</Relation>
 </Family>
 <Family ID="F32">
-  <Position>-365,740
+  <Position>-190,745
     <Top>
-      <Left>-395,740</Left>
-      <Right>-325,740</Right>
+      <Left>-220,745</Left>
+      <Right>-150,745</Right>
     </Top>
     <Bottom>
-      <Left>-410,710</Left>
-      <Right>-305,710</Right>
+      <Left>-235,715</Left>
+      <Right>-130,715</Right>
     </Bottom>
   </Position>
   <FamilyLine>PossiblyMoreChildren</FamilyLine>
 </Family>
 <Family ID="F33">
   <Pictures Primary="pic00092">pic00092</Pictures>
-  <Position>-1150,-490
+  <Position>-975,-485
     <Top>
-      <Left>-1180,-490</Left>
-      <Right>-85,-490</Right>
+      <Left>-1005,-485</Left>
+      <Right>90,-485</Right>
     </Top>
   </Position>
   <Relation>Widowed</Relation>
+  <Unions>marr00019</Unions>
 </Family>
 <Family ID="F34">
   <Position GenoMap="Татьяна Степановна Горюнова (Федорова)">-90,15
@@ -7607,36 +7689,36 @@
   <Relation>Marriage</Relation>
 </Family>
 <Family ID="F40">
-  <Position>-15,-40
+  <Position>160,-35
     <Top>
-      <Left>-45,-40</Left>
-      <Right>35,-40</Right>
+      <Left>130,-35</Left>
+      <Right>210,-35</Right>
     </Top>
     <Bottom>
-      <Left>-110,-70</Left>
-      <Right>105,-70</Right>
+      <Left>65,-65</Left>
+      <Right>280,-65</Right>
     </Bottom>
   </Position>
 </Family>
 <Family ID="F41">
-  <Position>-290,-200
+  <Position>-115,-195
     <Top>
-      <Left>-320,-200</Left>
-      <Right>105,-200</Right>
+      <Left>-145,-195</Left>
+      <Right>280,-195</Right>
     </Top>
   </Position>
   <Relation>Marriage</Relation>
 </Family>
 <Family ID="F42">
   <Pictures Primary="pic00112">pic00112</Pictures>
-  <Position>-1125,-820
+  <Position>-950,-815
     <Top>
-      <Left>-1155,-820</Left>
-      <Right>680,-820</Right>
+      <Left>-980,-815</Left>
+      <Right>855,-815</Right>
     </Top>
     <Bottom>
-      <Left>-1165,-850</Left>
-      <Right>-1080,-850</Right>
+      <Left>-990,-845</Left>
+      <Right>-905,-845</Right>
     </Bottom>
   </Position>
   <Relation>Marriage</Relation>
@@ -7711,14 +7793,14 @@
   <Relation>Marriage</Relation>
 </Family>
 <Family ID="F50">
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">530,-100
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">470,-100
     <Top>
-      <Left>500,-100</Left>
-      <Right>615,-100</Right>
+      <Left>440,-100</Left>
+      <Right>555,-100</Right>
     </Top>
     <Bottom>
-      <Left>440,-130</Left>
-      <Right>625,-130</Right>
+      <Left>380,-130</Left>
+      <Right>565,-130</Right>
     </Bottom>
   </Position>
   <Relation>Marriage</Relation>
@@ -7756,14 +7838,14 @@
 </Family>
 <Family ID="F55">
   <Pictures Primary="pic00161">pic00161</Pictures>
-  <Position>-900,-620
+  <Position>-700,-615
     <Top>
-      <Left>-930,-620</Left>
-      <Right>-840,-620</Right>
+      <Left>-730,-615</Left>
+      <Right>-635,-615</Right>
     </Top>
     <Bottom>
-      <Left>-950,-650</Left>
-      <Right>-850,-650</Right>
+      <Left>-760,-645</Left>
+      <Right>-645,-645</Right>
     </Bottom>
   </Position>
   <Relation>Separation</Relation>
@@ -7784,10 +7866,10 @@
 </Family>
 <Family ID="F57">
   <Pictures Primary="pic00091">pic00088, pic00089, pic00090, pic00091</Pictures>
-  <Position>-1025,-785
+  <Position>-850,-780
     <Top>
-      <Left>-1055,-785</Left>
-      <Right>-950,-785</Right>
+      <Left>-880,-780</Left>
+      <Right>-760,-780</Right>
     </Top>
   </Position>
   <Relation>Marriage</Relation>
@@ -7817,8 +7899,8 @@
       <Right>330,60</Right>
     </Top>
     <Bottom>
-      <Left>-105,30</Left>
-      <Right>615,30</Right>
+      <Left>-165,30</Left>
+      <Right>670,30</Right>
     </Bottom>
   </Position>
   <Relation>Marriage</Relation>
@@ -8008,9 +8090,9 @@
   <Relation>Marriage</Relation>
 </Family>
 <Family ID="F79">
-  <Position GenoMap="Валентина Илларионовна Ковалёва (Овчинникова)">0,75
+  <Position GenoMap="Валентина Илларионовна Ковалёва (Овчинникова)">-5,75
     <Top>
-      <Left>-30,75</Left>
+      <Left>-35,75</Left>
       <Right>95,75</Right>
     </Top>
   </Position>
@@ -8047,23 +8129,23 @@
   <Relation>Marriage</Relation>
 </Family>
 <Family ID="F84">
-  <Position GenoMap="Валентина Илларионовна Ковалёва (Овчинникова)">-85,-215
+  <Position GenoMap="Валентина Илларионовна Ковалёва (Овчинникова)">130,-185
     <Top>
-      <Left>-115,-215</Left>
-      <Right>-30,-215</Right>
+      <Left>100,-185</Left>
+      <Right>185,-185</Right>
     </Top>
   </Position>
 </Family>
 <Family ID="F85">
   <Pictures Primary="pic00170">pic00170</Pictures>
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">320,-375
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">260,-375
     <Top>
-      <Left>290,-375</Left>
-      <Right>440,-375</Right>
+      <Left>230,-375</Left>
+      <Right>380,-375</Right>
     </Top>
     <Bottom>
-      <Left>235,-405</Left>
-      <Right>405,-405</Right>
+      <Left>175,-405</Left>
+      <Right>345,-405</Right>
     </Bottom>
   </Position>
   <Relation>Marriage</Relation>
@@ -8078,10 +8160,10 @@
 </Family>
 <Family ID="F88">
   <Pictures Primary="pic00152">pic00097, pic00151, pic00152</Pictures>
-  <Position>825,-175
+  <Position>1000,-170
     <Top>
-      <Left>795,-175</Left>
-      <Right>905,-175</Right>
+      <Left>970,-170</Left>
+      <Right>1080,-170</Right>
     </Top>
   </Position>
   <Relation>Marriage</Relation>
@@ -8089,14 +8171,14 @@
 </Family>
 <Family ID="F89">
   <Pictures Primary="pic00108">pic00108</Pictures>
-  <Position>790,-15
+  <Position>965,-10
     <Top>
-      <Left>760,-15</Left>
-      <Right>895,-15</Right>
+      <Left>935,-10</Left>
+      <Right>1070,-10</Right>
     </Top>
     <Bottom>
-      <Left>680,-45</Left>
-      <Right>905,-45</Right>
+      <Left>855,-40</Left>
+      <Right>1080,-40</Right>
     </Bottom>
   </Position>
   <Relation>Marriage</Relation>
@@ -8152,14 +8234,14 @@
   <Relation>Marriage</Relation>
 </Family>
 <Family ID="fam00099">
-  <Position>1280,305
+  <Position>1455,310
     <Top>
-      <Left>1250,305</Left>
-      <Right>1335,305</Right>
+      <Left>1425,310</Left>
+      <Right>1510,310</Right>
     </Top>
     <Bottom>
-      <Left>1010,275</Left>
-      <Right>1580,275</Right>
+      <Left>1185,280</Left>
+      <Right>1755,280</Right>
     </Bottom>
   </Position>
   <Relation>Marriage</Relation>
@@ -8205,14 +8287,14 @@
   </Position>
 </Family>
 <Family ID="fam00104">
-  <Position>2040,305
+  <Position>2215,310
     <Top>
-      <Left>2010,305</Left>
-      <Right>2145,305</Right>
+      <Left>2185,310</Left>
+      <Right>2320,310</Right>
     </Top>
     <Bottom>
-      <Left>1690,275</Left>
-      <Right>2465,275</Right>
+      <Left>1865,280</Left>
+      <Right>2640,280</Right>
     </Bottom>
   </Position>
   <Relation>Marriage</Relation>
@@ -8268,26 +8350,26 @@
   <Relation>Marriage</Relation>
 </Family>
 <Family ID="fam00109">
-  <Position>350,825
+  <Position>45,850
     <Top>
-      <Left>-2375,825</Left>
-      <Right>725,825</Right>
+      <Left>-2630,850</Left>
+      <Right>2725,850</Right>
     </Top>
   </Position>
 </Family>
 <Family ID="fam00110">
-  <Position>-2375,825
+  <Position>-2660,850
     <Top>
-      <Left>-2490,825</Left>
-      <Right>-2375,825</Right>
+      <Left>-2730,850</Left>
+      <Right>-2630,850</Right>
     </Top>
   </Position>
 </Family>
 <Family ID="fam00111">
-  <Position>2015,435
+  <Position>2190,440
     <Top>
-      <Left>1985,435</Left>
-      <Right>2060,435</Right>
+      <Left>2160,440</Left>
+      <Right>2235,440</Right>
     </Top>
   </Position>
   <FamilyLine>PossiblyMoreChildren</FamilyLine>
@@ -8457,10 +8539,10 @@
   </Position>
 </Family>
 <Family ID="fam00168">
-  <Position>-715,-70
+  <Position>-740,-65
     <Top>
-      <Left>-745,-70</Left>
-      <Right>-670,-70</Right>
+      <Left>-770,-65</Left>
+      <Right>-695,-65</Right>
     </Top>
   </Position>
   <FamilyLine>PossiblyMoreChildren</FamilyLine>
@@ -8589,10 +8671,10 @@
   </Position>
 </Family>
 <Family ID="fam00184">
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">295,-240
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">235,-240
     <Top>
-      <Left>265,-240</Left>
-      <Right>340,-240</Right>
+      <Left>205,-240</Left>
+      <Right>280,-240</Right>
     </Top>
   </Position>
 </Family>
@@ -8684,40 +8766,40 @@
   </Position>
 </Family>
 <Family ID="fam00230">
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">-185,-260
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">-245,-260
     <Top>
-      <Left>-215,-260</Left>
-      <Right>-120,-260</Right>
+      <Left>-275,-260</Left>
+      <Right>-180,-260</Right>
     </Top>
   </Position>
   <Relation>Marriage</Relation>
 </Family>
 <Family ID="fam00231">
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">-240,-395
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">-300,-395
     <Top>
-      <Left>-270,-395</Left>
-      <Right>-190,-395</Right>
+      <Left>-330,-395</Left>
+      <Right>-250,-395</Right>
     </Top>
   </Position>
 </Family>
 <Family ID="fam00232">
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">100,-260
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">40,-260
     <Top>
-      <Left>70,-260</Left>
-      <Right>155,-260</Right>
+      <Left>10,-260</Left>
+      <Right>95,-260</Right>
     </Top>
   </Position>
   <Relation>Marriage</Relation>
 </Family>
 <Family ID="fam00233">
-  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">25,-395
+  <Position GenoMap="Анна Илларионовна Ковалёва (Степных)">-35,-395
     <Top>
-      <Left>-5,-395</Left>
-      <Right>95,-395</Right>
+      <Left>-65,-395</Left>
+      <Right>35,-395</Right>
     </Top>
     <Bottom>
-      <Left>-25,-425</Left>
-      <Right>75,-425</Right>
+      <Left>-85,-425</Left>
+      <Right>15,-425</Right>
     </Bottom>
   </Position>
   <Relation>Marriage</Relation>
@@ -9097,6 +9179,11 @@
 <Marriage ID="marr00018">
   <Type>Civil</Type>
 </Marriage>
+<Marriage ID="marr00019">
+  <Type>Civil</Type>
+  <Date>1952</Date>
+  <Place>place00003</Place>
+</Marriage>
 </Marriages>
 <PedigreeLinks>
 <PedigreeLink PedigreeLink="Biological" Family="F17" Individual="ind00742"/>
@@ -9218,7 +9305,7 @@
 <PedigreeLink PedigreeLink="Parent" Family="F49" Individual="I85"/>
 <PedigreeLink PedigreeLink="Biological" Family="F5" Individual="ind00752"/>
 <PedigreeLink PedigreeLink="Parent" Family="F62" Individual="I86"/>
-<PedigreeLink PedigreeLink="Biological" Family="F6" Individual="ind00755"/>
+<PedigreeLink PedigreeLink="Foster" Family="F6" Individual="ind00755"/>
 <PedigreeLink PedigreeLink="Parent" Family="F60" Individual="I87"/>
 <PedigreeLink PedigreeLink="Biological" Family="F34" Individual="I88"/>
 <PedigreeLink PedigreeLink="Parent" Family="F78" Individual="I88"/>
@@ -9487,7 +9574,11 @@
 <PedigreeLink PedigreeLink="Biological" Family="fam00109" Individual="I6"/>
 <PedigreeLink PedigreeLink="Parent" Family="fam00110" Individual="ind00306"/>
 <PedigreeLink PedigreeLink="Parent" Family="fam00110" Individual="ind00308"/>
-<PedigreeLink PedigreeLink="Biological" Family="fam00109" Individual="ind00741"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00109" Individual="ind00741">
+  <Position Auto="Y">
+    <Points>-2585,825</Points>
+  </Position>
+</PedigreeLink>
 <PedigreeLink PedigreeLink="Biological" Family="fam00109" Individual="ind00310"/>
 <PedigreeLink PedigreeLink="Biological" Family="fam00109" Individual="ind00311"/>
 <PedigreeLink PedigreeLink="Biological" Family="fam00109" Individual="ind00763"/>
@@ -9768,52 +9859,48 @@
 <PedigreeLink PedigreeLink="Biological" Family="F52" Individual="ind00738"/>
 <PedigreeLink PedigreeLink="Foster" Family="fam00110" Individual="ind00544">
   <Position Auto="Y">
-    <Points>-2400,800</Points>
+    <Points>-2640,825</Points>
   </Position>
 </PedigreeLink>
 <PedigreeLink PedigreeLink="Foster" Family="fam00110" Individual="ind00316">
   <Position Auto="Y">
-    <Points>-2410,800</Points>
+    <Points>-2640,825</Points>
   </Position>
 </PedigreeLink>
 <PedigreeLink PedigreeLink="Foster" Family="fam00110" Individual="ind00315">
   <Position Auto="Y">
-    <Points>-2420,800</Points>
+    <Points>-2645,825</Points>
   </Position>
 </PedigreeLink>
 <PedigreeLink PedigreeLink="Foster" Family="fam00110" Individual="ind00313">
   <Position Auto="Y">
-    <Points>-2430,800</Points>
+    <Points>-2645,825</Points>
   </Position>
 </PedigreeLink>
 <PedigreeLink PedigreeLink="Foster" Family="fam00110" Individual="ind00314">
   <Position Auto="Y">
-    <Points>-2440,800</Points>
+    <Points>-2645,825</Points>
   </Position>
 </PedigreeLink>
 <PedigreeLink PedigreeLink="Foster" Family="fam00110" Individual="ind00763">
   <Position Auto="Y">
-    <Points>-2450,800</Points>
+    <Points>-2650,825</Points>
   </Position>
 </PedigreeLink>
 <PedigreeLink PedigreeLink="Foster" Family="fam00110" Individual="ind00311">
   <Position Auto="Y">
-    <Points>-2460,800</Points>
+    <Points>-2650,825</Points>
   </Position>
 </PedigreeLink>
 <PedigreeLink PedigreeLink="Foster" Family="fam00110" Individual="ind00310">
   <Position Auto="Y">
-    <Points>-2470,800</Points>
+    <Points>-2655,825</Points>
   </Position>
 </PedigreeLink>
-<PedigreeLink PedigreeLink="Foster" Family="fam00110" Individual="ind00741">
-  <Position Auto="Y">
-    <Points>-2480,800</Points>
-  </Position>
-</PedigreeLink>
+<PedigreeLink PedigreeLink="Foster" Family="fam00110" Individual="ind00741"/>
 <PedigreeLink PedigreeLink="Foster" Family="fam00110" Individual="I6">
   <Position Auto="Y">
-    <Points>-2390,750</Points>
+    <Points>-2635,755</Points>
   </Position>
 </PedigreeLink>
 <PedigreeLink PedigreeLink="Parent" Family="F46" Individual="ind00777"/>
@@ -9841,6 +9928,9 @@
 <PedigreeLink PedigreeLink="Parent" Family="fam00264" Individual="ind00786"/>
 <PedigreeLink PedigreeLink="Biological" Family="fam00264" Individual="ind00787"/>
 <PedigreeLink PedigreeLink="Biological" Family="fam00264" Individual="ind00788"/>
+<PedigreeLink PedigreeLink="Biological" Family="F21" Individual="ind00789"/>
+<PedigreeLink PedigreeLink="Biological" Family="F21" Individual="ind00790"/>
+<PedigreeLink PedigreeLink="Biological" Family="F60" Individual="ind00791"/>
 </PedigreeLinks>
 <Pictures>
 <Picture ID="pic00001">
@@ -10873,6 +10963,21 @@
   <Latitude>52°32′42″N</Latitude>
   <Longitude>103°53′18″E</Longitude>
 </Place>
+<Place ID="place00036">
+  <Name>п.г.т. Ягодное</Name>
+  <City>Ягодное</City>
+  <State>Магаданская область</State>
+  <Country>Россия</Country>
+  <Latitude>62°31′25″N</Latitude>
+  <Longitude>149°37′16″E</Longitude>
+</Place>
+<Place ID="place00037">
+  <Name>г. Санкт-Петербург</Name>
+  <City>Санкт-Петербург</City>
+  <Country>Россия</Country>
+  <Latitude>59°56′21″N</Latitude>
+  <Longitude>30°18′57″E</Longitude>
+</Place>
 </Places>
 <Educations>
 <Education ID="edu00001">
@@ -10945,6 +11050,10 @@
 <Education ID="edu00011">
   <Institution>г. Иркутск</Institution>
   <Place>place00018</Place>
+</Education>
+<Education ID="edu00012">
+  <Place>place00037</Place>
+  <Termination>StillAttending</Termination>
 </Education>
 </Educations>
 <Occupations>
@@ -11159,6 +11268,7 @@
 <Contact ID="contact00007">
   <Place>place00013</Place>
   <Telephone>+79994519174</Telephone>
+  <Email>bgnikkov@rambler.ru</Email>
   <Homepage>https://vk.com/kovalevnikolay</Homepage>
   <Type>WorkPlaceAndPrimaryResidence</Type>
   <DateStart>15 Mar 2014</DateStart>
@@ -11334,6 +11444,7 @@
 <Contact ID="contact00043">
   <Place>place00018</Place>
   <Telephone>+79149186369</Telephone>
+  <Email>evgt86@mail.ru</Email>
   <Homepage>https://ok.ru/evgeniya8tsukanova</Homepage>
   <Type>WorkPlaceAndPrimaryResidence</Type>
 </Contact>
@@ -11384,6 +11495,8 @@
 </Contact>
 <Contact ID="contact00053">
   <Place>place00018</Place>
+  <Mobile>89025665419</Mobile>
+  <Email>shmeleva_irina@list.ru</Email>
   <Homepage>https://ok.ru/profile/231471910127?st.cmd=friendRestricted&amp;st.friendId=231471910127&amp;st.ups=FEED_VISIBILITY&amp;st.navst=68&amp;st.layer.cmd=PopLayerClose</Homepage>
   <Type>PrimaryResidence</Type>
 </Contact>
@@ -11463,6 +11576,7 @@
 <Contact ID="contact00100">
   <Place>place00005</Place>
   <Telephone>+79994519174</Telephone>
+  <Email>bgnikkov@rambler.ru</Email>
   <Type>PrimaryResidence</Type>
   <DateStart>2005</DateStart>
   <DateEnd>Jan 2014</DateEnd>
@@ -11546,12 +11660,23 @@
   <Homepage>https://ok.ru/profile/556907528814</Homepage>
   <Type>PrimaryResidence</Type>
 </Contact>
+<Contact ID="contact00132">
+  <Place>place00007</Place>
+</Contact>
+<Contact ID="contact00133">
+  <Place>place00036</Place>
+  <Type>PrimaryResidence</Type>
+</Contact>
+<Contact ID="contact00134">
+  <Place>place00037</Place>
+  <Type>TemporaryResidence</Type>
+</Contact>
 </Contacts>
 <Households>
 <Household>
   <Objects>I78, ind00761</Objects>
   <Position>
-    <Points>-1101,-674, -1007,-668, -893,-668, -893,-761, -1101,-761, -1101,-674</Points>
+    <Points>-926,-669, -817,-663, -703,-663, -703,-756, -926,-756, -926,-669</Points>
   </Position>
   <Display Pattern=".">
     <Color Line="#808000" Fill="Transparent"/>
@@ -11560,7 +11685,7 @@
 <Household>
   <Objects>I31, I41, I44</Objects>
   <Position>
-    <Points>-1194,-508, -1117,-508, -1007,-761, -893,-761, -893,-761, -808,-761, 621,-703, 738,-703, 738,-796, -1043,-961, -1118,-961, -1118,-868, -1009,-761, -1009,-674, -1194,-601, -1194,-508</Points>
+    <Points>-1019,-503, -942,-503, -688,-756, -603,-756, 796,-698, 913,-698, 913,-791, -868,-956, -943,-956, -943,-863, -834,-756, -834,-669, -817,-663, -703,-663, -703,-756, -817,-756, -1019,-596, -1019,-503</Points>
   </Position>
   <Display Pattern=".">
     <Color Line="#008000" Fill="Transparent"/>
@@ -11569,7 +11694,7 @@
 <Household>
   <Objects>ind00739, I84</Objects>
   <Position>
-    <Points>757,-63, 961,-63, 961,-156, 757,-156, 757,-63</Points>
+    <Points>932,-58, 1136,-58, 1136,-151, 932,-151, 932,-58</Points>
   </Position>
   <Display Pattern=".">
     <Color Line="#008000" Fill="Transparent"/>
@@ -11578,7 +11703,7 @@
 <Household>
   <Objects>I4, I3</Objects>
   <Position>
-    <Points>689,97, 961,97, 961,4, 689,4, 689,97</Points>
+    <Points>864,102, 1136,102, 1136,9, 864,9, 864,102</Points>
   </Position>
   <Display Pattern=".">
     <Color Line="#008000" Fill="Transparent"/>

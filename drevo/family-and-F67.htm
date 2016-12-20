@@ -30,9 +30,9 @@ tl_F67.wrapEvents = false;
 tl_F67.json0 = {
 'events' : [
 
-{ 'start' : '11 Feb 1963', 'end' : '18 Dec 2016', 'isDuration' : 'false', 'title' : 'сын Андрей Владимирович Ковалёв \u202D11 02 1963 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I24.htm','description' : 'Дата рождения -\x20 11.02.1963'},
-{ 'start' : '8 May 1973', 'end' : '18 Dec 2016', 'isDuration' : 'false', 'title' : 'сын Александр Владимирович Ковалёв \u202D08 05 1973 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I23.htm','description' : 'Дата рождения -\x20 8.05.1973'},
-{ 'start' : '9 Sep 1974', 'end' : '18 Dec 2016', 'isDuration' : 'false', 'title' : 'сын Иван Владимирович Ковалёв \u202D09 09 1974 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I30.htm','description' : 'Дата рождения -\x20 9.09.1974'}]};
+{ 'start' : '11 Feb 1963', 'end' : '20 Dec 2016', 'isDuration' : 'false', 'title' : 'сын Андрей Владимирович Ковалёв \u202D11 02 1963 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I24.htm','description' : 'Дата рождения -\x20 11.02.1963'},
+{ 'start' : '8 May 1973', 'end' : '20 Dec 2016', 'isDuration' : 'false', 'title' : 'сын Александр Владимирович Ковалёв \u202D08 05 1973 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I23.htm','description' : 'Дата рождения -\x20 8.05.1973'},
+{ 'start' : '9 Sep 1974', 'end' : '20 Dec 2016', 'isDuration' : 'false', 'title' : 'сын Иван Владимирович Ковалёв \u202D09 09 1974 - \u202C', 'icon' : 'images/gender_M.gif', 'color' : '#1E90FF', 'link' : 'I30.htm','description' : 'Дата рождения -\x20 9.09.1974'}]};
 tl_F67.date = '11 Feb 1953';
 addEvent(window, 'load', function () {
     tl_F67.div = document.getElementById('tl_F67');
@@ -54,6 +54,7 @@ addEvent(window, 'load', function () {
 	</head>
 	<body  class='gno-detail'>
 	<div class='cage'><div class='floatright'> <!--cage stops the text on the individual page getting too wide which causes a horizontal scrollbar to appear-->
+<img src='images/expand.gif' class='toggle24' name='toggle' onclick='javascript:ToggleTree(this.name,"");' alt='Свернуть/развернуть примечания' title='Свернуть/развернуть примечания'/>
 <img src='images/expand2.gif' class='toggle24' name='toggle2' onclick='javascript:ToggleTree(this.name,"2");' alt='Свернуть/развернуть подробности' title='Свернуть/развернуть подробности'/>
 </div><h2><img src='images/family_MF.gif' class='icon' alt='Семья' title='Семья'/> Владимир Илларионович Ковалёв и Мария Ефимовна Захарова <a href='FamilyTree.gno?id=F67'><img src='images/gno.gif' class='icon' alt='Владимир Илларионович Ковалёв и Мария Ефимовна Захарова в древе' title='Владимир Илларионович Ковалёв и Мария Ефимовна Захарова в древе'/> </a>  <a href='genomaps/genomap19.htm?x=190,y=-55,highlight=true, toggle=SVG, name=F67' target='popup'><img src='images/svg.gif' class='icon' alt='Владимир Илларионович Ковалёв и Мария Ефимовна Захарова в древе' title='F67' /> </a>  <a href='timeline19.htm?unit=8,pixels=50,wrapEvents=true,date=29 Dec 1899'><img src='images/timeline.gif' class='icon' alt='Показать Хронологию' title='1899'/> </a>  <a href='family_map-F67.htm' target='popup'><img src='images/pin.gif' class='icon' alt='Показать на карте Google географические места, связанные с семьёй' title='Показать на карте Google географические места, связанные с семьёй'/> </a> </h2><div>
 ‌<a href='I29.htm'  title='Владимир Илларионович Ковалёв'>Владимир</a> и <a href='ind00716.htm'  title='Мария Ефимовна Захарова'>Мария</a> были женаты<br />--&nbsp; сыновья - <a href='#I24.htm' onclick='javascript:explorerTreeOpen("Children","2");' title='Андрей Владимирович Ковалёв'>Андрей</a>, <a href='#I23.htm' onclick='javascript:explorerTreeOpen("Children","2");' title='Александр Владимирович Ковалёв'>Александр</a>, <a href='#I30.htm' onclick='javascript:explorerTreeOpen("Children","2");' title='Иван Владимирович Ковалёв'>Иван</a> и <a href='#ind00717.htm' onclick='javascript:explorerTreeOpen("Children","2");' title='Алексей Владимирович Ковалёв'>Алексей</a></div><br />
@@ -106,6 +107,14 @@ addEvent(window, 'load', function () {
 <div class='floatleft aligncenter widthpaddedsmall'>
 <img src='images/profileCM.jpg' width='59px' height='75px' class='picleft' style='margin:12px 35px 12px 20px;' alt='Для данной персоны изображение не установлено' title='Для данной персоны изображение не установлено'/>
 </div>
+<ul class='xT note'>
+  <li class='xT-c xT-h' onclick='xTclk(event,"")'><h5 class='inline'>Примечание</h5>
+    <ul class='xT-n'>
+     <div>В 14 лет катался на велосипеде с братом Иваном, и его насмерть сбила машина     </div>
+    </ul>
+  </li>
+</ul>
+
 </div><br />
 </ul></li></ul></div>
 
