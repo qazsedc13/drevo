@@ -1,0 +1,8 @@
+# Установка кодировки сервера
+AddDefaultCharset utf-8
+
+# запрет листинга каталогов
+#Options -Indexes
+
+Order Allow,Deny
+Allow from all

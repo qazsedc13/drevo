@@ -2,7 +2,7 @@
 AddDefaultCharset utf-8
 
 #Страницы ошибок
-ErrorDocument 403 /errors/block.html
+ErrorDocument 403 /drevo/errors/block.html
 
 # запрет листинга каталогов
 Options -Indexes
@@ -11,8 +11,8 @@ Options -Indexes
 #Deny from all
 #Allow from 195.211.206.244 176.209.8.46 178.184.196.203
            #Мой НСК         Чикой        Женя Иркутск
-		   
+           
 AuthType Basic
-AuthName "Авторизация"
-AuthUserFile /drevo/.htpasswd
+AuthName "Private zone"
+AuthUserFile /home/q/qazsedc13/qazsedc13.ru/public_html/drevo/.htpasswd
 Require valid-user
